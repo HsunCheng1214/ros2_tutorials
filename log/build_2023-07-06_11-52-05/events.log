@@ -1,0 +1,668 @@
+[0.000000] (-) TimerEvent: {}
+[0.001391] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001927] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.003051] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.003750] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.007397] (-) JobUnselected: {'identifier': 'my_package'}
+[0.008311] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.016442] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.022760] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.023635] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.024297] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.024772] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.025108] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict([('polygon_base', '/home/hsun/ros2_ws/install/polygon_base')])}
+[0.025302] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.097453] (-) TimerEvent: {}
+[0.193494] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'cmake'}
+[0.198269] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '/home/hsun/ros2_ws/src/polygon_base', '-DCMAKE_INSTALL_PREFIX=/home/hsun/ros2_ws/install/polygon_base'], 'cwd': '/home/hsun/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1743'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11494'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:27012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1743,unix/hsun-desktop:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', '856299330b3c4792ac6b3034b1154da2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NMWM71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/polygon_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.222961] (-) TimerEvent: {}
+[0.335572] (-) TimerEvent: {}
+[0.444033] (-) TimerEvent: {}
+[0.546001] (-) TimerEvent: {}
+[0.647524] (-) TimerEvent: {}
+[0.750469] (-) TimerEvent: {}
+[0.783735] (polygon_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.850661] (-) TimerEvent: {}
+[0.951830] (-) TimerEvent: {}
+[1.055972] (-) TimerEvent: {}
+[1.157131] (-) TimerEvent: {}
+[1.259498] (-) TimerEvent: {}
+[1.269397] (polygon_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.360018] (-) TimerEvent: {}
+[1.389308] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.460419] (-) TimerEvent: {}
+[1.563557] (-) TimerEvent: {}
+[1.665507] (-) TimerEvent: {}
+[1.766683] (-) TimerEvent: {}
+[1.869624] (-) TimerEvent: {}
+[1.971168] (-) TimerEvent: {}
+[2.047257] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.071671] (-) TimerEvent: {}
+[2.113237] (polygon_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.116686] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.124755] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.153461] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.172073] (-) TimerEvent: {}
+[2.274574] (-) TimerEvent: {}
+[2.378902] (-) TimerEvent: {}
+[2.485162] (-) TimerEvent: {}
+[2.587859] (-) TimerEvent: {}
+[2.690846] (-) TimerEvent: {}
+[2.794105] (-) TimerEvent: {}
+[2.896869] (-) TimerEvent: {}
+[2.930713] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.978628] (polygon_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.981229] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.983674] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.997074] (-) TimerEvent: {}
+[3.016137] (polygon_base) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[3.097281] (-) TimerEvent: {}
+[3.198692] (-) TimerEvent: {}
+[3.300803] (-) TimerEvent: {}
+[3.402319] (-) TimerEvent: {}
+[3.503906] (-) TimerEvent: {}
+[3.605900] (-) TimerEvent: {}
+[3.708141] (-) TimerEvent: {}
+[3.810964] (-) TimerEvent: {}
+[3.913615] (-) TimerEvent: {}
+[4.015349] (-) TimerEvent: {}
+[4.117580] (-) TimerEvent: {}
+[4.220206] (-) TimerEvent: {}
+[4.322596] (-) TimerEvent: {}
+[4.425056] (-) TimerEvent: {}
+[4.528145] (-) TimerEvent: {}
+[4.630794] (-) TimerEvent: {}
+[4.731748] (-) TimerEvent: {}
+[4.833544] (-) TimerEvent: {}
+[4.934375] (-) TimerEvent: {}
+[5.035509] (-) TimerEvent: {}
+[5.064269] (polygon_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.135736] (-) TimerEvent: {}
+[5.236835] (-) TimerEvent: {}
+[5.337664] (-) TimerEvent: {}
+[5.439659] (-) TimerEvent: {}
+[5.541726] (-) TimerEvent: {}
+[5.643378] (-) TimerEvent: {}
+[5.746440] (-) TimerEvent: {}
+[5.848348] (-) TimerEvent: {}
+[5.950277] (-) TimerEvent: {}
+[6.052669] (-) TimerEvent: {}
+[6.134189] (polygon_base) StdoutLine: {'line': b'-- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)\n'}
+[6.153847] (-) TimerEvent: {}
+[6.256621] (-) TimerEvent: {}
+[6.363593] (-) TimerEvent: {}
+[6.467054] (-) TimerEvent: {}
+[6.571953] (-) TimerEvent: {}
+[6.675656] (-) TimerEvent: {}
+[6.778656] (-) TimerEvent: {}
+[6.880495] (-) TimerEvent: {}
+[6.982385] (-) TimerEvent: {}
+[7.084757] (-) TimerEvent: {}
+[7.157305] (polygon_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[7.185188] (-) TimerEvent: {}
+[7.287380] (-) TimerEvent: {}
+[7.389824] (-) TimerEvent: {}
+[7.491363] (-) TimerEvent: {}
+[7.592439] (-) TimerEvent: {}
+[7.693746] (-) TimerEvent: {}
+[7.795910] (-) TimerEvent: {}
+[7.899189] (-) TimerEvent: {}
+[8.005429] (-) TimerEvent: {}
+[8.108794] (-) TimerEvent: {}
+[8.210762] (-) TimerEvent: {}
+[8.313667] (-) TimerEvent: {}
+[8.416043] (-) TimerEvent: {}
+[8.418124] (polygon_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.420312] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hsun/ros2_ws/src/polygon_base/include>\n'}
+[8.421457] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.425562] (polygon_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.437468] (polygon_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.438344] (polygon_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.441571] (polygon_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.516389] (-) TimerEvent: {}
+[8.618136] (-) TimerEvent: {}
+[8.719915] (-) TimerEvent: {}
+[8.821770] (-) TimerEvent: {}
+[8.923733] (-) TimerEvent: {}
+[9.025761] (-) TimerEvent: {}
+[9.127324] (-) TimerEvent: {}
+[9.231268] (-) TimerEvent: {}
+[9.335185] (-) TimerEvent: {}
+[9.437717] (-) TimerEvent: {}
+[9.512057] (polygon_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.538191] (-) TimerEvent: {}
+[9.591555] (polygon_base) StdoutLine: {'line': b'-- Generating done\n'}
+[9.638455] (-) TimerEvent: {}
+[9.739590] (-) TimerEvent: {}
+[9.841529] (-) TimerEvent: {}
+[9.868093] (polygon_base) StdoutLine: {'line': b'-- Build files have been written to: /home/hsun/ros2_ws/build/polygon_base\n'}
+[9.941753] (-) TimerEvent: {}
+[9.959728] (polygon_base) CommandEnded: {'returncode': 0}
+[9.965698] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'build'}
+[9.966151] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hsun/ros2_ws/build/polygon_base', '--', '-j4', '-l4'], 'cwd': '/home/hsun/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1743'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11494'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:27012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1743,unix/hsun-desktop:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', '856299330b3c4792ac6b3034b1154da2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NMWM71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/polygon_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[10.042339] (-) TimerEvent: {}
+[10.145695] (-) TimerEvent: {}
+[10.246750] (-) TimerEvent: {}
+[10.332677] (polygon_base) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o\x1b[0m\n'}
+[10.347179] (-) TimerEvent: {}
+[10.449265] (-) TimerEvent: {}
+[10.551393] (-) TimerEvent: {}
+[10.654338] (-) TimerEvent: {}
+[10.757109] (-) TimerEvent: {}
+[10.859377] (-) TimerEvent: {}
+[10.961572] (-) TimerEvent: {}
+[11.063229] (-) TimerEvent: {}
+[11.168192] (-) TimerEvent: {}
+[11.270366] (-) TimerEvent: {}
+[11.371720] (-) TimerEvent: {}
+[11.473837] (-) TimerEvent: {}
+[11.576038] (-) TimerEvent: {}
+[11.678702] (-) TimerEvent: {}
+[11.780907] (-) TimerEvent: {}
+[11.882966] (-) TimerEvent: {}
+[11.984707] (-) TimerEvent: {}
+[12.086375] (-) TimerEvent: {}
+[12.188229] (-) TimerEvent: {}
+[12.290311] (-) TimerEvent: {}
+[12.392986] (-) TimerEvent: {}
+[12.495127] (-) TimerEvent: {}
+[12.596942] (-) TimerEvent: {}
+[12.699225] (-) TimerEvent: {}
+[12.801085] (-) TimerEvent: {}
+[12.903423] (-) TimerEvent: {}
+[13.005595] (-) TimerEvent: {}
+[13.107563] (-) TimerEvent: {}
+[13.216142] (-) TimerEvent: {}
+[13.317336] (-) TimerEvent: {}
+[13.418236] (-) TimerEvent: {}
+[13.519342] (-) TimerEvent: {}
+[13.620212] (-) TimerEvent: {}
+[13.721288] (-) TimerEvent: {}
+[13.822187] (-) TimerEvent: {}
+[13.923073] (-) TimerEvent: {}
+[14.024051] (-) TimerEvent: {}
+[14.125021] (-) TimerEvent: {}
+[14.225861] (-) TimerEvent: {}
+[14.326722] (-) TimerEvent: {}
+[14.427642] (-) TimerEvent: {}
+[14.528639] (-) TimerEvent: {}
+[14.629529] (-) TimerEvent: {}
+[14.730364] (-) TimerEvent: {}
+[14.831204] (-) TimerEvent: {}
+[14.932253] (-) TimerEvent: {}
+[15.033168] (-) TimerEvent: {}
+[15.134045] (-) TimerEvent: {}
+[15.234970] (-) TimerEvent: {}
+[15.336172] (-) TimerEvent: {}
+[15.437351] (-) TimerEvent: {}
+[15.538207] (-) TimerEvent: {}
+[15.639017] (-) TimerEvent: {}
+[15.739916] (-) TimerEvent: {}
+[15.840759] (-) TimerEvent: {}
+[15.941578] (-) TimerEvent: {}
+[16.042502] (-) TimerEvent: {}
+[16.143422] (-) TimerEvent: {}
+[16.244266] (-) TimerEvent: {}
+[16.345244] (-) TimerEvent: {}
+[16.446146] (-) TimerEvent: {}
+[16.547038] (-) TimerEvent: {}
+[16.647911] (-) TimerEvent: {}
+[16.748834] (-) TimerEvent: {}
+[16.849704] (-) TimerEvent: {}
+[16.950633] (-) TimerEvent: {}
+[17.051925] (-) TimerEvent: {}
+[17.154261] (-) TimerEvent: {}
+[17.255948] (-) TimerEvent: {}
+[17.358010] (-) TimerEvent: {}
+[17.458855] (-) TimerEvent: {}
+[17.559821] (-) TimerEvent: {}
+[17.660662] (-) TimerEvent: {}
+[17.761509] (-) TimerEvent: {}
+[17.862418] (-) TimerEvent: {}
+[17.963247] (-) TimerEvent: {}
+[18.064219] (-) TimerEvent: {}
+[18.165044] (-) TimerEvent: {}
+[18.265894] (-) TimerEvent: {}
+[18.366743] (-) TimerEvent: {}
+[18.467658] (-) TimerEvent: {}
+[18.569236] (-) TimerEvent: {}
+[18.671885] (-) TimerEvent: {}
+[18.773354] (-) TimerEvent: {}
+[18.875432] (-) TimerEvent: {}
+[18.976668] (-) TimerEvent: {}
+[19.078591] (-) TimerEvent: {}
+[19.180038] (-) TimerEvent: {}
+[19.281979] (-) TimerEvent: {}
+[19.383348] (-) TimerEvent: {}
+[19.485242] (-) TimerEvent: {}
+[19.587023] (-) TimerEvent: {}
+[19.692768] (-) TimerEvent: {}
+[19.795426] (-) TimerEvent: {}
+[19.898137] (-) TimerEvent: {}
+[20.002021] (-) TimerEvent: {}
+[20.104246] (-) TimerEvent: {}
+[20.207058] (-) TimerEvent: {}
+[20.309187] (-) TimerEvent: {}
+[20.411418] (-) TimerEvent: {}
+[20.513421] (-) TimerEvent: {}
+[20.614816] (-) TimerEvent: {}
+[20.716848] (-) TimerEvent: {}
+[20.818958] (-) TimerEvent: {}
+[20.920792] (-) TimerEvent: {}
+[21.022797] (-) TimerEvent: {}
+[21.124445] (-) TimerEvent: {}
+[21.225333] (-) TimerEvent: {}
+[21.326218] (-) TimerEvent: {}
+[21.427075] (-) TimerEvent: {}
+[21.528016] (-) TimerEvent: {}
+[21.628933] (-) TimerEvent: {}
+[21.729764] (-) TimerEvent: {}
+[21.830713] (-) TimerEvent: {}
+[21.932107] (-) TimerEvent: {}
+[22.033034] (-) TimerEvent: {}
+[22.134117] (-) TimerEvent: {}
+[22.235061] (-) TimerEvent: {}
+[22.335968] (-) TimerEvent: {}
+[22.436777] (-) TimerEvent: {}
+[22.538159] (-) TimerEvent: {}
+[22.641394] (-) TimerEvent: {}
+[22.751069] (-) TimerEvent: {}
+[22.853027] (-) TimerEvent: {}
+[22.955599] (-) TimerEvent: {}
+[23.058550] (-) TimerEvent: {}
+[23.161489] (-) TimerEvent: {}
+[23.263829] (-) TimerEvent: {}
+[23.365525] (-) TimerEvent: {}
+[23.468510] (-) TimerEvent: {}
+[23.572518] (-) TimerEvent: {}
+[23.674410] (-) TimerEvent: {}
+[23.776778] (-) TimerEvent: {}
+[23.878710] (-) TimerEvent: {}
+[23.979855] (-) TimerEvent: {}
+[24.080821] (-) TimerEvent: {}
+[24.181706] (-) TimerEvent: {}
+[24.282755] (-) TimerEvent: {}
+[24.384124] (-) TimerEvent: {}
+[24.485531] (-) TimerEvent: {}
+[24.586856] (-) TimerEvent: {}
+[24.689014] (-) TimerEvent: {}
+[24.789808] (-) TimerEvent: {}
+[24.890664] (-) TimerEvent: {}
+[24.991520] (-) TimerEvent: {}
+[25.092420] (-) TimerEvent: {}
+[25.193378] (-) TimerEvent: {}
+[25.294280] (-) TimerEvent: {}
+[25.395318] (-) TimerEvent: {}
+[25.496205] (-) TimerEvent: {}
+[25.597090] (-) TimerEvent: {}
+[25.697939] (-) TimerEvent: {}
+[25.798763] (-) TimerEvent: {}
+[25.899604] (-) TimerEvent: {}
+[26.000468] (-) TimerEvent: {}
+[26.101313] (-) TimerEvent: {}
+[26.202135] (-) TimerEvent: {}
+[26.302950] (-) TimerEvent: {}
+[26.403818] (-) TimerEvent: {}
+[26.504715] (-) TimerEvent: {}
+[26.605689] (-) TimerEvent: {}
+[26.706518] (-) TimerEvent: {}
+[26.807389] (-) TimerEvent: {}
+[26.908269] (-) TimerEvent: {}
+[27.009133] (-) TimerEvent: {}
+[27.109976] (-) TimerEvent: {}
+[27.210866] (-) TimerEvent: {}
+[27.311688] (-) TimerEvent: {}
+[27.412532] (-) TimerEvent: {}
+[27.513329] (-) TimerEvent: {}
+[27.614146] (-) TimerEvent: {}
+[27.715003] (-) TimerEvent: {}
+[27.816115] (-) TimerEvent: {}
+[27.917407] (-) TimerEvent: {}
+[28.018234] (-) TimerEvent: {}
+[28.119088] (-) TimerEvent: {}
+[28.219974] (-) TimerEvent: {}
+[28.320805] (-) TimerEvent: {}
+[28.421597] (-) TimerEvent: {}
+[28.522403] (-) TimerEvent: {}
+[28.623333] (-) TimerEvent: {}
+[28.724207] (-) TimerEvent: {}
+[28.825015] (-) TimerEvent: {}
+[28.925874] (-) TimerEvent: {}
+[29.026725] (-) TimerEvent: {}
+[29.127647] (-) TimerEvent: {}
+[29.228560] (-) TimerEvent: {}
+[29.329443] (-) TimerEvent: {}
+[29.430372] (-) TimerEvent: {}
+[29.531255] (-) TimerEvent: {}
+[29.632132] (-) TimerEvent: {}
+[29.732955] (-) TimerEvent: {}
+[29.833814] (-) TimerEvent: {}
+[29.934641] (-) TimerEvent: {}
+[30.035512] (-) TimerEvent: {}
+[30.136497] (-) TimerEvent: {}
+[30.238765] (-) TimerEvent: {}
+[30.339993] (-) TimerEvent: {}
+[30.442158] (-) TimerEvent: {}
+[30.543920] (-) TimerEvent: {}
+[30.645414] (-) TimerEvent: {}
+[30.746223] (-) TimerEvent: {}
+[30.847051] (-) TimerEvent: {}
+[30.948000] (-) TimerEvent: {}
+[31.048988] (-) TimerEvent: {}
+[31.150397] (-) TimerEvent: {}
+[31.252433] (-) TimerEvent: {}
+[31.354294] (-) TimerEvent: {}
+[31.455436] (-) TimerEvent: {}
+[31.556735] (-) TimerEvent: {}
+[31.658715] (-) TimerEvent: {}
+[31.760137] (-) TimerEvent: {}
+[31.861187] (-) TimerEvent: {}
+[31.962069] (-) TimerEvent: {}
+[32.063594] (-) TimerEvent: {}
+[32.166212] (-) TimerEvent: {}
+[32.267929] (-) TimerEvent: {}
+[32.369910] (-) TimerEvent: {}
+[32.470751] (-) TimerEvent: {}
+[32.571522] (-) TimerEvent: {}
+[32.672376] (-) TimerEvent: {}
+[32.773216] (-) TimerEvent: {}
+[32.874005] (-) TimerEvent: {}
+[32.974830] (-) TimerEvent: {}
+[33.075686] (-) TimerEvent: {}
+[33.176770] (-) TimerEvent: {}
+[33.277951] (-) TimerEvent: {}
+[33.379007] (-) TimerEvent: {}
+[33.480315] (-) TimerEvent: {}
+[33.540387] (polygon_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable area_node\x1b[0m\n'}
+[33.580519] (-) TimerEvent: {}
+[33.681363] (-) TimerEvent: {}
+[33.782334] (-) TimerEvent: {}
+[33.883976] (-) TimerEvent: {}
+[33.985889] (-) TimerEvent: {}
+[34.088089] (-) TimerEvent: {}
+[34.191982] (-) TimerEvent: {}
+[34.294358] (-) TimerEvent: {}
+[34.395639] (-) TimerEvent: {}
+[34.497675] (-) TimerEvent: {}
+[34.600928] (-) TimerEvent: {}
+[34.625360] (polygon_base) StdoutLine: {'line': b'[100%] Built target area_node\n'}
+[34.701267] (-) TimerEvent: {}
+[34.731587] (polygon_base) CommandEnded: {'returncode': 0}
+[34.803942] (-) TimerEvent: {}
+[34.905676] (-) TimerEvent: {}
+[35.001145] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'install'}
+[35.010661] (-) TimerEvent: {}
+[35.093658] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hsun/ros2_ws/build/polygon_base'], 'cwd': '/home/hsun/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1743'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11494'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:27012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1743,unix/hsun-desktop:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', '856299330b3c4792ac6b3034b1154da2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NMWM71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/polygon_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[35.110941] (-) TimerEvent: {}
+[35.172494] (polygon_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.175998] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/include\n'}
+[35.178992] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/include/polygon_base\n'}
+[35.182343] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp\n'}
+[35.188749] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/lib/polygon_base/area_node\n'}
+[35.209018] (polygon_base) StdoutLine: {'line': b'-- Set runtime path of "/home/hsun/ros2_ws/install/polygon_base/lib/polygon_base/area_node" to ""\n'}
+[35.211130] (-) TimerEvent: {}
+[35.213151] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base\n'}
+[35.217551] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base\n'}
+[35.220875] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh\n'}
+[35.225048] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv\n'}
+[35.229128] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh\n'}
+[35.232722] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv\n'}
+[35.234077] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash\n'}
+[35.236312] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh\n'}
+[35.237219] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh\n'}
+[35.239910] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv\n'}
+[35.240605] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/package.dsv\n'}
+[35.241663] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base\n'}
+[35.243592] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[35.245216] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake\n'}
+[35.246566] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake\n'}
+[35.248149] (polygon_base) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/package.xml\n'}
+[35.255396] (polygon_base) CommandEnded: {'returncode': 0}
+[35.311639] (-) TimerEvent: {}
+[35.414837] (-) TimerEvent: {}
+[35.516564] (-) TimerEvent: {}
+[35.618288] (-) TimerEvent: {}
+[35.726278] (-) TimerEvent: {}
+[35.829010] (-) TimerEvent: {}
+[35.840876] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 0}
+[35.871575] (polygon_plugins) JobStarted: {'identifier': 'polygon_plugins'}
+[35.928519] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'cmake'}
+[35.929875] (-) TimerEvent: {}
+[35.932859] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/hsun/ros2_ws/src/polygon_plugins', '-DCMAKE_INSTALL_PREFIX=/home/hsun/ros2_ws/install/polygon_plugins'], 'cwd': '/home/hsun/ros2_ws/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1743'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11494'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:27012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1743,unix/hsun-desktop:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', '856299330b3c4792ac6b3034b1154da2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NMWM71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/polygon_base:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/polygon_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/polygon_base:/opt/ros/iron')]), 'shell': False}
+[36.031368] (-) TimerEvent: {}
+[36.133934] (-) TimerEvent: {}
+[36.236626] (-) TimerEvent: {}
+[36.339614] (-) TimerEvent: {}
+[36.441481] (-) TimerEvent: {}
+[36.551426] (-) TimerEvent: {}
+[36.556675] (polygon_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[36.651647] (-) TimerEvent: {}
+[36.752963] (-) TimerEvent: {}
+[36.854915] (-) TimerEvent: {}
+[36.956474] (-) TimerEvent: {}
+[37.058043] (-) TimerEvent: {}
+[37.093234] (polygon_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[37.145887] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[37.158627] (-) TimerEvent: {}
+[37.262438] (-) TimerEvent: {}
+[37.363979] (-) TimerEvent: {}
+[37.466848] (-) TimerEvent: {}
+[37.569071] (-) TimerEvent: {}
+[37.670499] (-) TimerEvent: {}
+[37.773943] (-) TimerEvent: {}
+[37.788539] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[37.829227] (polygon_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[37.832315] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[37.834763] (polygon_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[37.863601] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[37.874133] (-) TimerEvent: {}
+[37.975730] (-) TimerEvent: {}
+[38.081044] (-) TimerEvent: {}
+[38.182782] (-) TimerEvent: {}
+[38.284400] (-) TimerEvent: {}
+[38.388537] (-) TimerEvent: {}
+[38.491138] (-) TimerEvent: {}
+[38.592267] (-) TimerEvent: {}
+[38.651084] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[38.692675] (-) TimerEvent: {}
+[38.703040] (polygon_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[38.708420] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[38.712286] (polygon_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[38.748575] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[38.793208] (-) TimerEvent: {}
+[38.895341] (-) TimerEvent: {}
+[38.997989] (-) TimerEvent: {}
+[39.099112] (-) TimerEvent: {}
+[39.200498] (-) TimerEvent: {}
+[39.301592] (-) TimerEvent: {}
+[39.403333] (-) TimerEvent: {}
+[39.506089] (-) TimerEvent: {}
+[39.608921] (-) TimerEvent: {}
+[39.712417] (-) TimerEvent: {}
+[39.814872] (-) TimerEvent: {}
+[39.916140] (-) TimerEvent: {}
+[40.018747] (-) TimerEvent: {}
+[40.122439] (-) TimerEvent: {}
+[40.223403] (-) TimerEvent: {}
+[40.325290] (-) TimerEvent: {}
+[40.426264] (-) TimerEvent: {}
+[40.527750] (-) TimerEvent: {}
+[40.592303] (polygon_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[40.628207] (-) TimerEvent: {}
+[40.730499] (-) TimerEvent: {}
+[40.832500] (-) TimerEvent: {}
+[40.935043] (-) TimerEvent: {}
+[41.036897] (-) TimerEvent: {}
+[41.138526] (-) TimerEvent: {}
+[41.240161] (-) TimerEvent: {}
+[41.342160] (-) TimerEvent: {}
+[41.443901] (-) TimerEvent: {}
+[41.553099] (-) TimerEvent: {}
+[41.655382] (-) TimerEvent: {}
+[41.757119] (-) TimerEvent: {}
+[41.801062] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[41.857627] (-) TimerEvent: {}
+[41.958541] (polygon_plugins) StdoutLine: {'line': b'-- Found polygon_base: 0.0.0 (/home/hsun/ros2_ws/install/polygon_base/share/polygon_base/cmake)\n'}
+[41.960933] (-) TimerEvent: {}
+[41.986313] (polygon_plugins) StdoutLine: {'line': b'-- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)\n'}
+[42.061204] (-) TimerEvent: {}
+[42.162679] (-) TimerEvent: {}
+[42.265310] (-) TimerEvent: {}
+[42.367303] (-) TimerEvent: {}
+[42.469756] (-) TimerEvent: {}
+[42.571319] (-) TimerEvent: {}
+[42.667465] (polygon_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[42.671609] (-) TimerEvent: {}
+[42.773276] (-) TimerEvent: {}
+[42.874982] (-) TimerEvent: {}
+[42.978173] (-) TimerEvent: {}
+[43.080469] (-) TimerEvent: {}
+[43.186973] (-) TimerEvent: {}
+[43.288948] (-) TimerEvent: {}
+[43.394873] (-) TimerEvent: {}
+[43.497201] (-) TimerEvent: {}
+[43.606815] (-) TimerEvent: {}
+[43.691576] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[43.694938] (polygon_plugins) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hsun/ros2_ws/src/polygon_plugins/include>\n'}
+[43.702414] (polygon_plugins) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[43.705759] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[43.707205] (-) TimerEvent: {}
+[43.718608] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[43.722311] (polygon_plugins) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[43.728514] (polygon_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[43.792477] (polygon_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[43.807651] (-) TimerEvent: {}
+[43.891345] (polygon_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[43.902705] (polygon_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/hsun/ros2_ws/build/polygon_plugins\n'}
+[43.908246] (-) TimerEvent: {}
+[43.982826] (polygon_plugins) CommandEnded: {'returncode': 0}
+[43.989294] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'build'}
+[43.995495] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hsun/ros2_ws/build/polygon_plugins', '--', '-j4', '-l4'], 'cwd': '/home/hsun/ros2_ws/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1743'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11494'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:27012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1743,unix/hsun-desktop:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', '856299330b3c4792ac6b3034b1154da2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NMWM71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/polygon_base:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/polygon_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/polygon_base:/opt/ros/iron')]), 'shell': False}
+[44.008702] (-) TimerEvent: {}
+[44.112527] (-) TimerEvent: {}
+[44.213661] (-) TimerEvent: {}
+[44.319990] (-) TimerEvent: {}
+[44.421119] (polygon_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o\x1b[0m\n'}
+[44.423122] (-) TimerEvent: {}
+[44.527889] (-) TimerEvent: {}
+[44.631373] (-) TimerEvent: {}
+[44.733301] (-) TimerEvent: {}
+[44.840024] (-) TimerEvent: {}
+[44.941112] (-) TimerEvent: {}
+[45.043758] (-) TimerEvent: {}
+[45.146863] (-) TimerEvent: {}
+[45.249355] (-) TimerEvent: {}
+[45.350455] (-) TimerEvent: {}
+[45.451554] (-) TimerEvent: {}
+[45.553026] (-) TimerEvent: {}
+[45.654640] (-) TimerEvent: {}
+[45.756840] (-) TimerEvent: {}
+[45.858355] (-) TimerEvent: {}
+[45.961568] (-) TimerEvent: {}
+[46.066807] (-) TimerEvent: {}
+[46.168153] (-) TimerEvent: {}
+[46.269753] (-) TimerEvent: {}
+[46.371646] (-) TimerEvent: {}
+[46.474209] (-) TimerEvent: {}
+[46.575709] (-) TimerEvent: {}
+[46.676624] (-) TimerEvent: {}
+[46.777494] (-) TimerEvent: {}
+[46.878425] (-) TimerEvent: {}
+[46.979388] (-) TimerEvent: {}
+[47.080944] (-) TimerEvent: {}
+[47.184076] (-) TimerEvent: {}
+[47.286530] (-) TimerEvent: {}
+[47.388925] (-) TimerEvent: {}
+[47.489710] (-) TimerEvent: {}
+[47.590515] (-) TimerEvent: {}
+[47.691357] (-) TimerEvent: {}
+[47.792227] (-) TimerEvent: {}
+[47.893074] (-) TimerEvent: {}
+[47.993909] (-) TimerEvent: {}
+[48.094779] (-) TimerEvent: {}
+[48.195658] (-) TimerEvent: {}
+[48.296703] (-) TimerEvent: {}
+[48.397578] (-) TimerEvent: {}
+[48.498467] (-) TimerEvent: {}
+[48.599356] (-) TimerEvent: {}
+[48.700789] (-) TimerEvent: {}
+[48.802816] (-) TimerEvent: {}
+[48.904004] (-) TimerEvent: {}
+[49.005962] (-) TimerEvent: {}
+[49.107301] (-) TimerEvent: {}
+[49.209994] (-) TimerEvent: {}
+[49.310824] (-) TimerEvent: {}
+[49.411665] (-) TimerEvent: {}
+[49.512586] (-) TimerEvent: {}
+[49.613420] (-) TimerEvent: {}
+[49.714250] (-) TimerEvent: {}
+[49.815064] (-) TimerEvent: {}
+[49.915963] (-) TimerEvent: {}
+[50.016947] (-) TimerEvent: {}
+[50.117789] (-) TimerEvent: {}
+[50.218630] (-) TimerEvent: {}
+[50.319473] (-) TimerEvent: {}
+[50.420444] (-) TimerEvent: {}
+[50.521295] (-) TimerEvent: {}
+[50.622156] (-) TimerEvent: {}
+[50.723098] (-) TimerEvent: {}
+[50.824021] (-) TimerEvent: {}
+[50.841009] (polygon_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpolygon_plugins.so\x1b[0m\n'}
+[50.924681] (-) TimerEvent: {}
+[51.026748] (-) TimerEvent: {}
+[51.129703] (-) TimerEvent: {}
+[51.232430] (-) TimerEvent: {}
+[51.335046] (-) TimerEvent: {}
+[51.437518] (-) TimerEvent: {}
+[51.527024] (polygon_plugins) StdoutLine: {'line': b'[100%] Built target polygon_plugins\n'}
+[51.537872] (-) TimerEvent: {}
+[51.639619] (-) TimerEvent: {}
+[51.656697] (polygon_plugins) CommandEnded: {'returncode': 0}
+[51.740047] (-) TimerEvent: {}
+[51.842047] (-) TimerEvent: {}
+[51.906027] (polygon_plugins) JobProgress: {'identifier': 'polygon_plugins', 'progress': 'install'}
+[51.907726] (polygon_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hsun/ros2_ws/build/polygon_plugins'], 'cwd': '/home/hsun/ros2_ws/build/polygon_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1604'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1743'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11494'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:27012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1743,unix/hsun-desktop:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', '856299330b3c4792ac6b3034b1154da2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NMWM71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/polygon_base:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/polygon_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ad38dda5ea30d033402c151964a60dd7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/polygon_base:/opt/ros/iron')]), 'shell': False}
+[51.942623] (-) TimerEvent: {}
+[52.012360] (polygon_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[52.018616] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml\n'}
+[52.023239] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/include\n'}
+[52.029005] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins\n'}
+[52.030074] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp\n'}
+[52.037120] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h\n'}
+[52.041412] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so\n'}
+[52.049740] (-) TimerEvent: {}
+[52.051358] (polygon_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/hsun/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""\n'}
+[52.060035] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh\n'}
+[52.061671] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv\n'}
+[52.065550] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins\n'}
+[52.067950] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins\n'}
+[52.071035] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh\n'}
+[52.071794] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv\n'}
+[52.073056] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh\n'}
+[52.076485] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv\n'}
+[52.077185] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash\n'}
+[52.077763] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh\n'}
+[52.078345] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh\n'}
+[52.078936] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv\n'}
+[52.079608] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv\n'}
+[52.080498] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins\n'}
+[52.085433] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins\n'}
+[52.091950] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake\n'}
+[52.092752] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake\n'}
+[52.093559] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[52.094192] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[52.096312] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[52.097540] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake\n'}
+[52.100351] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake\n'}
+[52.101515] (polygon_plugins) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml\n'}
+[52.115388] (polygon_plugins) CommandEnded: {'returncode': 0}
+[52.155327] (-) TimerEvent: {}
+[52.259737] (-) TimerEvent: {}
+[52.373295] (-) TimerEvent: {}
+[52.475064] (-) TimerEvent: {}
+[52.576860] (-) TimerEvent: {}
+[52.684639] (-) TimerEvent: {}
+[52.786108] (-) TimerEvent: {}
+[52.879712] (polygon_plugins) JobEnded: {'identifier': 'polygon_plugins', 'rc': 0}
+[52.887159] (-) TimerEvent: {}
+[52.890925] (-) EventReactorShutdown: {}
