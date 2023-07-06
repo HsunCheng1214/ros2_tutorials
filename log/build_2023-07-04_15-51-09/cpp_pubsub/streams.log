@@ -1,0 +1,21 @@
+[0.100s] Invoking command in '/home/hsun/ros2_ws/build/cpp_pubsub': /usr/bin/cmake /home/hsun/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/hsun/ros2_ws/install/cpp_pubsub
+[0.372s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.373s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.380s]   has asked CMake to find a package configuration file provided by
+[0.397s]   "ament_cmake", but CMake did not find one.
+[0.399s] 
+[0.412s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.428s]   any of the following names:
+[0.429s] 
+[0.430s]     ament_cmakeConfig.cmake
+[0.431s]     ament_cmake-config.cmake
+[0.432s] 
+[0.432s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.433s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.434s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.435s]   has been installed.
+[0.444s] 
+[0.446s] [0m
+[0.447s] -- Configuring incomplete, errors occurred!
+[0.454s] See also "/home/hsun/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.460s] Invoked command in '/home/hsun/ros2_ws/build/cpp_pubsub' returned '1': /usr/bin/cmake /home/hsun/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/hsun/ros2_ws/install/cpp_pubsub

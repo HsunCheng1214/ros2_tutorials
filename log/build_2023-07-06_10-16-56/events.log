@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.001401] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.003697] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.006779] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.007458] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.007822] (-) JobUnselected: {'identifier': 'my_package'}
+[0.008044] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.008257] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.008555] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.008797] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.009004] (python_parameters) JobQueued: {'identifier': 'python_parameters', 'dependencies': OrderedDict()}
+[0.011979] (python_parameters) JobStarted: {'identifier': 'python_parameters'}
+[0.101079] (-) TimerEvent: {}
+[0.202033] (-) TimerEvent: {}
+[0.306995] (-) TimerEvent: {}
+[0.408184] (-) TimerEvent: {}
+[0.509911] (-) TimerEvent: {}
+[0.611338] (-) TimerEvent: {}
+[0.712805] (-) TimerEvent: {}
+[0.814257] (-) TimerEvent: {}
+[0.916816] (-) TimerEvent: {}
+[1.018850] (-) TimerEvent: {}
+[1.120303] (-) TimerEvent: {}
+[1.222166] (-) TimerEvent: {}
+[1.323372] (-) TimerEvent: {}
+[1.424387] (-) TimerEvent: {}
+[1.525092] (-) TimerEvent: {}
+[1.625769] (-) TimerEvent: {}
+[1.726496] (-) TimerEvent: {}
+[1.827544] (-) TimerEvent: {}
+[1.929029] (-) TimerEvent: {}
+[2.029893] (-) TimerEvent: {}
+[2.131386] (-) TimerEvent: {}
+[2.233064] (-) TimerEvent: {}
+[2.336309] (-) TimerEvent: {}
+[2.439915] (-) TimerEvent: {}
+[2.541312] (-) TimerEvent: {}
+[2.642214] (-) TimerEvent: {}
+[2.743681] (-) TimerEvent: {}
+[2.846016] (-) TimerEvent: {}
+[2.859559] (python_parameters) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[2.862644] (python_parameters) JobEnded: {'identifier': 'python_parameters', 'rc': 1}
+[2.873253] (-) EventReactorShutdown: {}

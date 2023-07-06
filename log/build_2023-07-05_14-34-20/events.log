@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.002532] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.007525] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.007890] (-) JobUnselected: {'identifier': 'my_package'}
+[0.008056] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.008187] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.008306] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.008419] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.008546] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.008671] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.097908] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.098893] (-) TimerEvent: {}
+[0.104204] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/hsun/ros2_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/hsun/ros2_ws/install/more_interfaces'], 'cwd': '/home/hsun/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib:/home/hsun/ros2_ws/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1554'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bf3655f1022187a1af3a659f64a3e50a'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4283'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hsun/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:22515'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1695,unix/hsun-desktop:/tmp/.ICE-unix/1695'), ('INVOCATION_ID', '1dd3eaf4cbb24b61aa16f8c99c47f0e4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ICKF71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bf3655f1022187a1af3a659f64a3e50a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron')]), 'shell': False}
+[0.201216] (-) TimerEvent: {}
+[0.214432] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.301645] (-) TimerEvent: {}
+[0.403436] (-) TimerEvent: {}
+[0.505278] (-) TimerEvent: {}
+[0.606896] (-) TimerEvent: {}
+[0.714147] (-) TimerEvent: {}
+[0.816309] (-) TimerEvent: {}
+[0.917305] (-) TimerEvent: {}
+[1.018714] (-) TimerEvent: {}
+[1.119430] (-) TimerEvent: {}
+[1.220336] (-) TimerEvent: {}
+[1.321446] (-) TimerEvent: {}
+[1.422213] (-) TimerEvent: {}
+[1.474569] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.522432] (-) TimerEvent: {}
+[1.623195] (-) TimerEvent: {}
+[1.707685] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.723408] (-) TimerEvent: {}
+[1.763785] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.823684] (-) TimerEvent: {}
+[1.824391] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.915599] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.923806] (-) TimerEvent: {}
+[2.024510] (-) TimerEvent: {}
+[2.125307] (-) TimerEvent: {}
+[2.226050] (-) TimerEvent: {}
+[2.326810] (-) TimerEvent: {}
+[2.427781] (-) TimerEvent: {}
+[2.528539] (-) TimerEvent: {}
+[2.629388] (-) TimerEvent: {}
+[2.679946] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.689713] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.729956] (-) TimerEvent: {}
+[2.831487] (-) TimerEvent: {}
+[2.933181] (-) TimerEvent: {}
+[3.034048] (-) TimerEvent: {}
+[3.134846] (-) TimerEvent: {}
+[3.235593] (-) TimerEvent: {}
+[3.336379] (-) TimerEvent: {}
+[3.437200] (-) TimerEvent: {}
+[3.538025] (-) TimerEvent: {}
+[3.638784] (-) TimerEvent: {}
+[3.739672] (-) TimerEvent: {}
+[3.840417] (-) TimerEvent: {}
+[3.916311] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.940602] (-) TimerEvent: {}
+[4.041373] (-) TimerEvent: {}
+[4.142164] (-) TimerEvent: {}
+[4.242948] (-) TimerEvent: {}
+[4.343775] (-) TimerEvent: {}
+[4.444557] (-) TimerEvent: {}
+[4.545495] (-) TimerEvent: {}
+[4.646492] (-) TimerEvent: {}
+[4.731446] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[4.746804] (-) TimerEvent: {}
+[4.800050] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[4.832207] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[4.847102] (-) TimerEvent: {}
+[4.948298] (-) TimerEvent: {}
+[5.050777] (-) TimerEvent: {}
+[5.152354] (-) TimerEvent: {}
+[5.253526] (-) TimerEvent: {}
+[5.355236] (-) TimerEvent: {}
+[5.455975] (-) TimerEvent: {}
+[5.557128] (-) TimerEvent: {}
+[5.657900] (-) TimerEvent: {}
+[5.758913] (-) TimerEvent: {}
+[5.859807] (-) TimerEvent: {}
+[5.960654] (-) TimerEvent: {}
+[6.061415] (-) TimerEvent: {}
+[6.162286] (-) TimerEvent: {}
+[6.264396] (-) TimerEvent: {}
+[6.366431] (-) TimerEvent: {}
+[6.468168] (-) TimerEvent: {}
+[6.569752] (-) TimerEvent: {}
+[6.672120] (-) TimerEvent: {}
+[6.775923] (-) TimerEvent: {}
+[6.877705] (-) TimerEvent: {}
+[6.978837] (-) TimerEvent: {}
+[7.080550] (-) TimerEvent: {}
+[7.181862] (-) TimerEvent: {}
+[7.284098] (-) TimerEvent: {}
+[7.385967] (-) TimerEvent: {}
+[7.444041] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[7.486174] (-) TimerEvent: {}
+[7.587223] (-) TimerEvent: {}
+[7.688436] (-) TimerEvent: {}
+[7.791144] (-) TimerEvent: {}
+[7.892120] (-) TimerEvent: {}
+[7.993244] (-) TimerEvent: {}
+[8.095394] (-) TimerEvent: {}
+[8.199935] (-) TimerEvent: {}
+[8.304329] (-) TimerEvent: {}
+[8.408820] (-) TimerEvent: {}
+[8.510813] (-) TimerEvent: {}
+[8.613422] (-) TimerEvent: {}
+[8.716590] (-) TimerEvent: {}
+[8.828589] (-) TimerEvent: {}
+[8.929658] (-) TimerEvent: {}
+[9.032537] (-) TimerEvent: {}
+[9.135860] (-) TimerEvent: {}
+[9.238791] (-) TimerEvent: {}
+[9.343351] (-) TimerEvent: {}
+[9.446441] (-) TimerEvent: {}
+[9.548937] (-) TimerEvent: {}
+[9.651096] (-) TimerEvent: {}
+[9.753283] (-) TimerEvent: {}
+[9.854906] (-) TimerEvent: {}
+[9.956004] (-) TimerEvent: {}
+[10.057612] (-) TimerEvent: {}
+[10.160541] (-) TimerEvent: {}
+[10.262740] (-) TimerEvent: {}
+[10.366749] (-) TimerEvent: {}
+[10.467455] (-) TimerEvent: {}
+[10.568262] (-) TimerEvent: {}
+[10.669201] (-) TimerEvent: {}
+[10.766695] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.772917] (-) TimerEvent: {}
+[10.873636] (-) TimerEvent: {}
+[10.974426] (-) TimerEvent: {}
+[11.075260] (-) TimerEvent: {}
+[11.176265] (-) TimerEvent: {}
+[11.277260] (-) TimerEvent: {}
+[11.378944] (-) TimerEvent: {}
+[11.480038] (-) TimerEvent: {}
+[11.582053] (-) TimerEvent: {}
+[11.684310] (-) TimerEvent: {}
+[11.788722] (-) TimerEvent: {}
+[11.890275] (-) TimerEvent: {}
+[11.924327] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.990828] (-) TimerEvent: {}
+[12.093135] (-) TimerEvent: {}
+[12.195288] (-) TimerEvent: {}
+[12.268137] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[12.295899] (-) TimerEvent: {}
+[12.311271] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[12.398200] (-) TimerEvent: {}
+[12.500031] (-) TimerEvent: {}
+[12.538565] (more_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[12.541476] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.544455] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.546551] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[12.600387] (-) TimerEvent: {}
+[12.702151] (-) TimerEvent: {}
+[12.782936] (more_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.802571] (-) TimerEvent: {}
+[12.905660] (-) TimerEvent: {}
+[13.006828] (-) TimerEvent: {}
+[13.108923] (-) TimerEvent: {}
+[13.212158] (-) TimerEvent: {}
+[13.248315] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.254311] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.257087] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.276678] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.285290] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.286497] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.293137] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.312648] (-) TimerEvent: {}
+[13.403799] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.412838] (-) TimerEvent: {}
+[13.514377] (-) TimerEvent: {}
+[13.618038] (-) TimerEvent: {}
+[13.722851] (-) TimerEvent: {}
+[13.824777] (-) TimerEvent: {}
+[13.926781] (-) TimerEvent: {}
+[13.975262] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[13.997543] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/hsun/ros2_ws/build/more_interfaces\n'}
+[14.027269] (-) TimerEvent: {}
+[14.059979] (more_interfaces) CommandEnded: {'returncode': 0}
+[14.079733] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[14.080550] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hsun/ros2_ws/build/more_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/hsun/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib:/home/hsun/ros2_ws/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1554'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bf3655f1022187a1af3a659f64a3e50a'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4283'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hsun/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:22515'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1695,unix/hsun-desktop:/tmp/.ICE-unix/1695'), ('INVOCATION_ID', '1dd3eaf4cbb24b61aa16f8c99c47f0e4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ICKF71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bf3655f1022187a1af3a659f64a3e50a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron')]), 'shell': False}
+[14.127493] (-) TimerEvent: {}
+[14.228621] (-) TimerEvent: {}
+[14.329851] (-) TimerEvent: {}
+[14.433584] (-) TimerEvent: {}
+[14.543954] (-) TimerEvent: {}
+[14.645466] (-) TimerEvent: {}
+[14.680264] (more_interfaces) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[14.700658] (more_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[14.746031] (-) TimerEvent: {}
+[14.850234] (-) TimerEvent: {}
+[14.900641] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[14.950908] (-) TimerEvent: {}
+[15.054287] (-) TimerEvent: {}
+[15.158295] (-) TimerEvent: {}
+[15.261212] (-) TimerEvent: {}
+[15.362807] (-) TimerEvent: {}
+[15.465516] (-) TimerEvent: {}
+[15.571091] (-) TimerEvent: {}
+[15.676771] (-) TimerEvent: {}
+[15.781250] (-) TimerEvent: {}
+[15.897254] (-) TimerEvent: {}
+[15.999539] (-) TimerEvent: {}
+[16.102160] (-) TimerEvent: {}
+[16.206626] (-) TimerEvent: {}
+[16.308197] (-) TimerEvent: {}
+[16.409787] (-) TimerEvent: {}
+[16.512343] (-) TimerEvent: {}
+[16.617029] (-) TimerEvent: {}
+[16.720162] (-) TimerEvent: {}
+[16.828493] (-) TimerEvent: {}
+[16.931557] (-) TimerEvent: {}
+[17.033047] (-) TimerEvent: {}
+[17.135545] (-) TimerEvent: {}
+[17.245245] (-) TimerEvent: {}
+[17.347018] (-) TimerEvent: {}
+[17.449388] (-) TimerEvent: {}
+[17.553095] (-) TimerEvent: {}
+[17.658199] (-) TimerEvent: {}
+[17.733101] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__rosidl_generator_type_description\n'}
+[17.760366] (-) TimerEvent: {}
+[17.874259] (-) TimerEvent: {}
+[17.976328] (-) TimerEvent: {}
+[18.066518] (more_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[18.076778] (-) TimerEvent: {}
+[18.149977] (more_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[18.177297] (-) TimerEvent: {}
+[18.283615] (-) TimerEvent: {}
+[18.314327] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hsun/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmore_interfaces/msg/address_book.hpp: No such file or directory\n'}
+[18.317138] (more_interfaces) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"more_interfaces/msg/address_book.hpp"\x1b[m\x1b[K\n'}
+[18.320695] (more_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.322790] (more_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[18.354980] (more_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1\n'}
+[18.356013] (more_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/publish_address_book.dir/all] Error 2\n'}
+[18.357722] (more_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[18.384061] (-) TimerEvent: {}
+[18.489228] (-) TimerEvent: {}
+[18.594240] (-) TimerEvent: {}
+[18.696318] (-) TimerEvent: {}
+[18.798573] (-) TimerEvent: {}
+[18.903834] (-) TimerEvent: {}
+[19.004828] (-) TimerEvent: {}
+[19.105896] (-) TimerEvent: {}
+[19.209367] (-) TimerEvent: {}
+[19.311147] (-) TimerEvent: {}
+[19.413195] (-) TimerEvent: {}
+[19.514540] (-) TimerEvent: {}
+[19.622630] (-) TimerEvent: {}
+[19.724076] (-) TimerEvent: {}
+[19.830517] (-) TimerEvent: {}
+[19.934647] (-) TimerEvent: {}
+[20.044023] (-) TimerEvent: {}
+[20.156127] (-) TimerEvent: {}
+[20.264323] (-) TimerEvent: {}
+[20.364428] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[20.366213] (-) TimerEvent: {}
+[20.387597] (more_interfaces) StdoutLine: {'line': b'creating more_interfaces.egg-info\n'}
+[20.396711] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[20.408525] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[20.419599] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[20.428055] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[20.462589] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[20.466741] (-) TimerEvent: {}
+[20.472745] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[20.567940] (-) TimerEvent: {}
+[20.669756] (-) TimerEvent: {}
+[20.772107] (-) TimerEvent: {}
+[20.873724] (-) TimerEvent: {}
+[20.904914] (more_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[20.974020] (-) TimerEvent: {}
+[21.075773] (-) TimerEvent: {}
+[21.186689] (-) TimerEvent: {}
+[21.290262] (-) TimerEvent: {}
+[21.392396] (-) TimerEvent: {}
+[21.494158] (-) TimerEvent: {}
+[21.524484] (more_interfaces) StdoutLine: {'line': b'[ 11%] Built target more_interfaces__cpp\n'}
+[21.594259] (-) TimerEvent: {}
+[21.695117] (-) TimerEvent: {}
+[21.795950] (-) TimerEvent: {}
+[21.896849] (-) TimerEvent: {}
+[21.906309] (more_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o\x1b[0m\n'}
+[21.997010] (-) TimerEvent: {}
+[22.098227] (-) TimerEvent: {}
+[22.170152] (more_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[22.198367] (-) TimerEvent: {}
+[22.299796] (-) TimerEvent: {}
+[22.403033] (-) TimerEvent: {}
+[22.446040] (more_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[22.503501] (-) TimerEvent: {}
+[22.606123] (-) TimerEvent: {}
+[22.707618] (-) TimerEvent: {}
+[22.809126] (-) TimerEvent: {}
+[22.894117] (more_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[22.909329] (-) TimerEvent: {}
+[23.010501] (-) TimerEvent: {}
+[23.112041] (-) TimerEvent: {}
+[23.192155] (more_interfaces) StdoutLine: {'line': b'[ 22%] Built target more_interfaces__rosidl_generator_c\n'}
+[23.202987] (more_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.214205] (more_interfaces) CommandEnded: {'returncode': 2}
+[23.216648] (-) TimerEvent: {}
+[23.324807] (-) TimerEvent: {}
+[23.427412] (-) TimerEvent: {}
+[23.529108] (-) TimerEvent: {}
+[23.630404] (-) TimerEvent: {}
+[23.731972] (-) TimerEvent: {}
+[23.833141] (-) TimerEvent: {}
+[23.929719] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[23.933334] (-) TimerEvent: {}
+[23.942100] (-) EventReactorShutdown: {}

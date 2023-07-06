@@ -1,0 +1,458 @@
+[0.000000] (-) TimerEvent: {}
+[0.003870] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.004233] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.004411] (-) JobUnselected: {'identifier': 'my_package'}
+[0.004536] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.004957] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.007313] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.007790] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.010819] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.011199] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.097667] (-) TimerEvent: {}
+[0.178015] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.191017] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.196060] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hsun/ros2_ws/build/more_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/hsun/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib:/home/hsun/ros2_ws/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1554'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bf3655f1022187a1af3a659f64a3e50a'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4283'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hsun/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:22515'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1695,unix/hsun-desktop:/tmp/.ICE-unix/1695'), ('INVOCATION_ID', '1dd3eaf4cbb24b61aa16f8c99c47f0e4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ICKF71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bf3655f1022187a1af3a659f64a3e50a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron')]), 'shell': False}
+[0.219607] (-) TimerEvent: {}
+[0.322731] (-) TimerEvent: {}
+[0.406997] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.422949] (-) TimerEvent: {}
+[0.524243] (-) TimerEvent: {}
+[0.626812] (-) TimerEvent: {}
+[0.728181] (-) TimerEvent: {}
+[0.829446] (-) TimerEvent: {}
+[0.931382] (-) TimerEvent: {}
+[1.033745] (-) TimerEvent: {}
+[1.135628] (-) TimerEvent: {}
+[1.237145] (-) TimerEvent: {}
+[1.339258] (-) TimerEvent: {}
+[1.440888] (-) TimerEvent: {}
+[1.541916] (-) TimerEvent: {}
+[1.642911] (-) TimerEvent: {}
+[1.744345] (-) TimerEvent: {}
+[1.845754] (-) TimerEvent: {}
+[1.947502] (-) TimerEvent: {}
+[2.049251] (-) TimerEvent: {}
+[2.147408] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[2.149686] (-) TimerEvent: {}
+[2.251364] (-) TimerEvent: {}
+[2.353458] (-) TimerEvent: {}
+[2.455001] (-) TimerEvent: {}
+[2.560202] (-) TimerEvent: {}
+[2.564190] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.653319] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.660709] (-) TimerEvent: {}
+[2.762948] (-) TimerEvent: {}
+[2.813955] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.863353] (-) TimerEvent: {}
+[2.967690] (-) TimerEvent: {}
+[3.000711] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.068381] (-) TimerEvent: {}
+[3.171225] (-) TimerEvent: {}
+[3.273898] (-) TimerEvent: {}
+[3.375388] (-) TimerEvent: {}
+[3.477680] (-) TimerEvent: {}
+[3.580153] (-) TimerEvent: {}
+[3.684002] (-) TimerEvent: {}
+[3.786361] (-) TimerEvent: {}
+[3.889021] (-) TimerEvent: {}
+[3.992449] (-) TimerEvent: {}
+[4.102724] (-) TimerEvent: {}
+[4.159470] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[4.184230] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.203201] (-) TimerEvent: {}
+[4.307145] (-) TimerEvent: {}
+[4.410740] (-) TimerEvent: {}
+[4.515426] (-) TimerEvent: {}
+[4.617268] (-) TimerEvent: {}
+[4.719603] (-) TimerEvent: {}
+[4.824793] (-) TimerEvent: {}
+[4.927727] (-) TimerEvent: {}
+[5.028885] (-) TimerEvent: {}
+[5.130344] (-) TimerEvent: {}
+[5.232323] (-) TimerEvent: {}
+[5.334334] (-) TimerEvent: {}
+[5.436273] (-) TimerEvent: {}
+[5.538908] (-) TimerEvent: {}
+[5.651138] (-) TimerEvent: {}
+[5.753819] (-) TimerEvent: {}
+[5.856725] (-) TimerEvent: {}
+[5.963354] (-) TimerEvent: {}
+[5.977817] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.063595] (-) TimerEvent: {}
+[6.165400] (-) TimerEvent: {}
+[6.267493] (-) TimerEvent: {}
+[6.369685] (-) TimerEvent: {}
+[6.471426] (-) TimerEvent: {}
+[6.579430] (-) TimerEvent: {}
+[6.684238] (-) TimerEvent: {}
+[6.785996] (-) TimerEvent: {}
+[6.890523] (-) TimerEvent: {}
+[6.993751] (-) TimerEvent: {}
+[7.095689] (-) TimerEvent: {}
+[7.197753] (-) TimerEvent: {}
+[7.302598] (-) TimerEvent: {}
+[7.404434] (-) TimerEvent: {}
+[7.413722] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[7.501765] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[7.504863] (-) TimerEvent: {}
+[7.546337] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[7.605056] (-) TimerEvent: {}
+[7.707261] (-) TimerEvent: {}
+[7.810114] (-) TimerEvent: {}
+[7.912510] (-) TimerEvent: {}
+[8.016248] (-) TimerEvent: {}
+[8.118324] (-) TimerEvent: {}
+[8.220028] (-) TimerEvent: {}
+[8.321209] (-) TimerEvent: {}
+[8.422263] (-) TimerEvent: {}
+[8.524226] (-) TimerEvent: {}
+[8.633636] (-) TimerEvent: {}
+[8.741812] (-) TimerEvent: {}
+[8.843132] (-) TimerEvent: {}
+[8.947006] (-) TimerEvent: {}
+[9.049022] (-) TimerEvent: {}
+[9.151261] (-) TimerEvent: {}
+[9.253057] (-) TimerEvent: {}
+[9.354615] (-) TimerEvent: {}
+[9.455554] (-) TimerEvent: {}
+[9.556871] (-) TimerEvent: {}
+[9.658370] (-) TimerEvent: {}
+[9.759862] (-) TimerEvent: {}
+[9.860662] (-) TimerEvent: {}
+[9.961745] (-) TimerEvent: {}
+[10.062873] (-) TimerEvent: {}
+[10.165085] (-) TimerEvent: {}
+[10.268402] (-) TimerEvent: {}
+[10.377181] (-) TimerEvent: {}
+[10.480286] (-) TimerEvent: {}
+[10.583686] (-) TimerEvent: {}
+[10.693701] (-) TimerEvent: {}
+[10.797379] (-) TimerEvent: {}
+[10.900281] (-) TimerEvent: {}
+[10.993035] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[11.000565] (-) TimerEvent: {}
+[11.103589] (-) TimerEvent: {}
+[11.205954] (-) TimerEvent: {}
+[11.306914] (-) TimerEvent: {}
+[11.407883] (-) TimerEvent: {}
+[11.509331] (-) TimerEvent: {}
+[11.611953] (-) TimerEvent: {}
+[11.714568] (-) TimerEvent: {}
+[11.822099] (-) TimerEvent: {}
+[11.925388] (-) TimerEvent: {}
+[12.028948] (-) TimerEvent: {}
+[12.130799] (-) TimerEvent: {}
+[12.232761] (-) TimerEvent: {}
+[12.335222] (-) TimerEvent: {}
+[12.436078] (-) TimerEvent: {}
+[12.537035] (-) TimerEvent: {}
+[12.638801] (-) TimerEvent: {}
+[12.740513] (-) TimerEvent: {}
+[12.842793] (-) TimerEvent: {}
+[12.947045] (-) TimerEvent: {}
+[13.049978] (-) TimerEvent: {}
+[13.155185] (-) TimerEvent: {}
+[13.258154] (-) TimerEvent: {}
+[13.359670] (-) TimerEvent: {}
+[13.461353] (-) TimerEvent: {}
+[13.565857] (-) TimerEvent: {}
+[13.667516] (-) TimerEvent: {}
+[13.769942] (-) TimerEvent: {}
+[13.872327] (-) TimerEvent: {}
+[13.980270] (-) TimerEvent: {}
+[14.085390] (-) TimerEvent: {}
+[14.189000] (-) TimerEvent: {}
+[14.291099] (-) TimerEvent: {}
+[14.364218] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.392105] (-) TimerEvent: {}
+[14.495467] (-) TimerEvent: {}
+[14.597419] (-) TimerEvent: {}
+[14.700221] (-) TimerEvent: {}
+[14.803108] (-) TimerEvent: {}
+[14.905207] (-) TimerEvent: {}
+[15.007154] (-) TimerEvent: {}
+[15.108936] (-) TimerEvent: {}
+[15.211841] (-) TimerEvent: {}
+[15.313577] (-) TimerEvent: {}
+[15.415302] (-) TimerEvent: {}
+[15.518380] (-) TimerEvent: {}
+[15.620333] (-) TimerEvent: {}
+[15.722454] (-) TimerEvent: {}
+[15.825015] (-) TimerEvent: {}
+[15.894477] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.925310] (-) TimerEvent: {}
+[16.027088] (-) TimerEvent: {}
+[16.128640] (-) TimerEvent: {}
+[16.192231] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[16.228925] (-) TimerEvent: {}
+[16.330485] (-) TimerEvent: {}
+[16.422894] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.423976] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[16.424738] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[16.431323] (-) TimerEvent: {}
+[16.533715] (-) TimerEvent: {}
+[16.599800] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.603190] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[16.606352] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.611884] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.627009] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.631732] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.635120] (-) TimerEvent: {}
+[16.642351] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.701835] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.735670] (-) TimerEvent: {}
+[16.844537] (-) TimerEvent: {}
+[16.946249] (-) TimerEvent: {}
+[17.048363] (-) TimerEvent: {}
+[17.152989] (-) TimerEvent: {}
+[17.229746] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[17.253682] (-) TimerEvent: {}
+[17.293109] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/hsun/ros2_ws/build/more_interfaces\n'}
+[17.353918] (-) TimerEvent: {}
+[17.457765] (-) TimerEvent: {}
+[17.560360] (-) TimerEvent: {}
+[17.611330] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target more_interfaces__rosidl_generator_type_description\n'}
+[17.661874] (-) TimerEvent: {}
+[17.763524] (-) TimerEvent: {}
+[17.865864] (-) TimerEvent: {}
+[17.868287] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[17.966169] (-) TimerEvent: {}
+[18.049906] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__cpp\n'}
+[18.066344] (-) TimerEvent: {}
+[18.168120] (-) TimerEvent: {}
+[18.270128] (-) TimerEvent: {}
+[18.372158] (-) TimerEvent: {}
+[18.473715] (-) TimerEvent: {}
+[18.574805] (-) TimerEvent: {}
+[18.677283] (-) TimerEvent: {}
+[18.778121] (-) TimerEvent: {}
+[18.879098] (-) TimerEvent: {}
+[18.979886] (-) TimerEvent: {}
+[19.080685] (-) TimerEvent: {}
+[19.181629] (-) TimerEvent: {}
+[19.283082] (-) TimerEvent: {}
+[19.384390] (-) TimerEvent: {}
+[19.485354] (-) TimerEvent: {}
+[19.586117] (-) TimerEvent: {}
+[19.686793] (-) TimerEvent: {}
+[19.787533] (-) TimerEvent: {}
+[19.888213] (-) TimerEvent: {}
+[19.988910] (-) TimerEvent: {}
+[20.089692] (-) TimerEvent: {}
+[20.190420] (-) TimerEvent: {}
+[20.291112] (-) TimerEvent: {}
+[20.391808] (-) TimerEvent: {}
+[20.492516] (-) TimerEvent: {}
+[20.493419] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[20.497170] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[20.498694] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[20.500040] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[20.518648] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[20.526315] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[20.592861] (-) TimerEvent: {}
+[20.694232] (-) TimerEvent: {}
+[20.766450] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[20.794476] (-) TimerEvent: {}
+[20.840178] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c\x1b[0m\n'}
+[20.894705] (-) TimerEvent: {}
+[20.912224] (more_interfaces) StdoutLine: {'line': b'[ 19%] Built target more_interfaces__rosidl_generator_c\n'}
+[20.981787] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[20.994955] (-) TimerEvent: {}
+[21.073808] (more_interfaces) StdoutLine: {'line': b'[ 27%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[21.097671] (-) TimerEvent: {}
+[21.154263] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[21.197912] (-) TimerEvent: {}
+[21.255679] (more_interfaces) StdoutLine: {'line': b'[ 36%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[21.298254] (-) TimerEvent: {}
+[21.350863] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[21.399331] (-) TimerEvent: {}
+[21.457658] (more_interfaces) StdoutLine: {'line': b'[ 44%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[21.500071] (-) TimerEvent: {}
+[21.569805] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[21.600285] (-) TimerEvent: {}
+[21.686687] (more_interfaces) StdoutLine: {'line': b'[ 52%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[21.700482] (-) TimerEvent: {}
+[21.767274] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publish_address_book\x1b[0m\n'}
+[21.800699] (-) TimerEvent: {}
+[21.891294] (more_interfaces) StdoutLine: {'line': b'[ 58%] Built target publish_address_book\n'}
+[21.900965] (-) TimerEvent: {}
+[21.983388] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[22.001212] (-) TimerEvent: {}
+[22.102198] (-) TimerEvent: {}
+[22.109876] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[22.190546] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[22.202475] (-) TimerEvent: {}
+[22.296146] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[22.303048] (-) TimerEvent: {}
+[22.404562] (-) TimerEvent: {}
+[22.474398] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces\n'}
+[22.504963] (-) TimerEvent: {}
+[22.607193] (-) TimerEvent: {}
+[22.652162] (more_interfaces) StdoutLine: {'line': b'[ 77%] Built target more_interfaces__py\n'}
+[22.708175] (-) TimerEvent: {}
+[22.750564] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py\x1b[0m\n'}
+[22.810369] (-) TimerEvent: {}
+[22.853601] (more_interfaces) StdoutLine: {'line': b'[ 83%] Built target more_interfaces__rosidl_generator_py\n'}
+[22.911319] (-) TimerEvent: {}
+[22.945467] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[23.011532] (-) TimerEvent: {}
+[23.054593] (more_interfaces) StdoutLine: {'line': b'[ 88%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.115440] (-) TimerEvent: {}
+[23.146773] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[23.216063] (-) TimerEvent: {}
+[23.254743] (more_interfaces) StdoutLine: {'line': b'[ 94%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[23.317347] (-) TimerEvent: {}
+[23.346851] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[23.417111] (-) TimerEvent: {}
+[23.456233] (more_interfaces) StdoutLine: {'line': b'[100%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[23.518194] (-) TimerEvent: {}
+[23.561742] (more_interfaces) CommandEnded: {'returncode': 0}
+[23.618926] (-) TimerEvent: {}
+[23.721287] (-) TimerEvent: {}
+[23.823104] (-) TimerEvent: {}
+[23.925673] (-) TimerEvent: {}
+[24.026640] (-) TimerEvent: {}
+[24.127345] (-) TimerEvent: {}
+[24.228203] (-) TimerEvent: {}
+[24.308723] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[24.328462] (-) TimerEvent: {}
+[24.365034] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hsun/ros2_ws/build/more_interfaces'], 'cwd': '/home/hsun/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib:/home/hsun/ros2_ws/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1554'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bf3655f1022187a1af3a659f64a3e50a'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4283'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hsun/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:22515'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1695,unix/hsun-desktop:/tmp/.ICE-unix/1695'), ('INVOCATION_ID', '1dd3eaf4cbb24b61aa16f8c99c47f0e4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ICKF71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bf3655f1022187a1af3a659f64a3e50a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron')]), 'shell': False}
+[24.428753] (-) TimerEvent: {}
+[24.433282] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.435066] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[24.436798] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[24.438045] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.json\n'}
+[24.438886] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[24.439929] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[24.440856] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[24.441744] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__description.c\n'}
+[24.443528] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[24.445141] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h\n'}
+[24.448797] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[24.449597] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h\n'}
+[24.450812] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c\n'}
+[24.451764] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.452699] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h\n'}
+[24.453325] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[24.454185] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[24.456179] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[24.457904] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[24.461362] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[24.462097] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[24.463153] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[24.463691] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.464845] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[24.468031] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[24.468802] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[24.469598] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[24.474955] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[24.478112] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[24.481594] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[24.490792] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp\n'}
+[24.496123] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[24.502264] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[24.504895] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[24.510509] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[24.518214] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.522045] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.523784] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.525769] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[24.527424] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[24.529093] (-) TimerEvent: {}
+[24.530702] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[24.535506] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[24.536687] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[24.538283] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.539340] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[24.540444] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[24.541808] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[24.543182] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[24.550172] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[24.557326] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.558588] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[24.560145] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[24.561076] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[24.562084] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[24.562736] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[24.563613] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info\n'}
+[24.569091] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.574544] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.576771] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.582510] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.584894] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces\n'}
+[24.589577] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.594784] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.597962] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so\n'}
+[24.601771] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/__init__.py\n'}
+[24.603633] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.609981] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[24.611447] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.614898] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.616316] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg\n'}
+[24.622465] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/__init__.py\n'}
+[24.623983] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_address_book.py\n'}
+[24.625205] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[24.629271] (-) TimerEvent: {}
+[24.730356] (-) TimerEvent: {}
+[24.831945] (-) TimerEvent: {}
+[24.859916] (more_interfaces) StdoutLine: {'line': b"Listing '/home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces'...\n"}
+[24.863609] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/__init__.py'...\n"}
+[24.870663] (more_interfaces) StdoutLine: {'line': b"Listing '/home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg'...\n"}
+[24.924614] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.927718] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.930584] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[24.932159] (-) TimerEvent: {}
+[24.933260] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[24.934872] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[24.935924] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[24.936710] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[24.937838] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[24.938962] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[24.940238] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[24.941005] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[24.941842] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[24.942842] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[24.945445] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[24.946174] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[24.950182] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[24.950753] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[24.951365] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[24.951879] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[24.952586] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.953068] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.953838] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.955832] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[24.956442] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.957226] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.957852] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.959214] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.960650] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[24.962952] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.963686] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.964413] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.964945] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[24.965424] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.966127] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[24.966813] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.967319] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[24.967829] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.968462] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.969240] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.971390] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.988652] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.990776] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.992657] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[24.993894] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[24.995070] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[24.996237] (more_interfaces) CommandEnded: {'returncode': 0}
+[25.035211] (-) TimerEvent: {}
+[25.138573] (-) TimerEvent: {}
+[25.239610] (-) TimerEvent: {}
+[25.340305] (-) TimerEvent: {}
+[25.441056] (-) TimerEvent: {}
+[25.542029] (-) TimerEvent: {}
+[25.642761] (-) TimerEvent: {}
+[25.743574] (-) TimerEvent: {}
+[25.844240] (-) TimerEvent: {}
+[25.891359] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[25.900499] (-) EventReactorShutdown: {}

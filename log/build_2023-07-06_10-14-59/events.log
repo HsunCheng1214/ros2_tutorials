@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.001973] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.002240] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002415] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002554] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002680] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003655] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.006359] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.006834] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.007100] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.009827] (python_parameters) JobQueued: {'identifier': 'python_parameters', 'dependencies': OrderedDict()}
+[0.010206] (python_parameters) JobStarted: {'identifier': 'python_parameters'}
+[0.104439] (-) TimerEvent: {}
+[0.206137] (-) TimerEvent: {}
+[0.307182] (-) TimerEvent: {}
+[0.408424] (-) TimerEvent: {}
+[0.511000] (-) TimerEvent: {}
+[0.614924] (-) TimerEvent: {}
+[0.717594] (-) TimerEvent: {}
+[0.819066] (-) TimerEvent: {}
+[0.921563] (-) TimerEvent: {}
+[1.023651] (-) TimerEvent: {}
+[1.127024] (-) TimerEvent: {}
+[1.228778] (-) TimerEvent: {}
+[1.331372] (-) TimerEvent: {}
+[1.433965] (-) TimerEvent: {}
+[1.535636] (-) TimerEvent: {}
+[1.638652] (-) TimerEvent: {}
+[1.740627] (-) TimerEvent: {}
+[1.841681] (-) TimerEvent: {}
+[1.942953] (-) TimerEvent: {}
+[2.043666] (-) TimerEvent: {}
+[2.144344] (-) TimerEvent: {}
+[2.245061] (-) TimerEvent: {}
+[2.345780] (-) TimerEvent: {}
+[2.446479] (-) TimerEvent: {}
+[2.547193] (-) TimerEvent: {}
+[2.647943] (-) TimerEvent: {}
+[2.748697] (-) TimerEvent: {}
+[2.850041] (-) TimerEvent: {}
+[2.951347] (-) TimerEvent: {}
+[2.973561] (python_parameters) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[2.977088] (python_parameters) JobEnded: {'identifier': 'python_parameters', 'rc': 1}
+[2.986464] (-) EventReactorShutdown: {}

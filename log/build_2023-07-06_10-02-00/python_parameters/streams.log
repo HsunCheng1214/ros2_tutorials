@@ -1,0 +1,39 @@
+[7.751s] Invoking command in '/home/hsun/ros2_ws/src/python_parameters': PYTHONPATH=/home/hsun/ros2_ws/build/python_parameters/prefix_override:/home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/hsun/ros2_ws/build/python_parameters/build install --record /home/hsun/ros2_ws/build/python_parameters/install.log --single-version-externally-managed
+[10.604s] running egg_info
+[10.606s] creating ../../build/python_parameters/python_parameters.egg-info
+[10.607s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[10.608s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[10.609s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[10.610s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[10.611s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[10.612s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[10.621s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[10.626s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[10.628s] running build
+[10.629s] running build_py
+[10.630s] creating /home/hsun/ros2_ws/build/python_parameters/build
+[10.631s] creating /home/hsun/ros2_ws/build/python_parameters/build/lib
+[10.631s] creating /home/hsun/ros2_ws/build/python_parameters/build/lib/python_parameters
+[10.633s] copying python_parameters/__init__.py -> /home/hsun/ros2_ws/build/python_parameters/build/lib/python_parameters
+[10.633s] copying python_parameters/python_parameters_node.py -> /home/hsun/ros2_ws/build/python_parameters/build/lib/python_parameters
+[10.635s] running install
+[10.651s] running install_lib
+[10.654s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.655s]   warnings.warn(
+[10.656s] creating /home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[10.659s] copying /home/hsun/ros2_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[10.661s] copying /home/hsun/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[10.662s] byte-compiling /home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc
+[10.670s] byte-compiling /home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc
+[10.671s] running install_data
+[10.675s] creating /home/hsun/ros2_ws/install/python_parameters/share/ament_index
+[10.675s] creating /home/hsun/ros2_ws/install/python_parameters/share/ament_index/resource_index
+[10.676s] creating /home/hsun/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[10.676s] copying resource/python_parameters -> /home/hsun/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[10.677s] copying package.xml -> /home/hsun/ros2_ws/install/python_parameters/share/python_parameters
+[10.678s] running install_egg_info
+[10.691s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[10.698s] running install_scripts
+[10.812s] Installing minimal_param_node script to /home/hsun/ros2_ws/install/python_parameters/lib/python_parameters
+[10.815s] writing list of installed files to '/home/hsun/ros2_ws/build/python_parameters/install.log'
+[11.062s] Invoked command in '/home/hsun/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/hsun/ros2_ws/build/python_parameters/prefix_override:/home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/hsun/ros2_ws/build/python_parameters/build install --record /home/hsun/ros2_ws/build/python_parameters/install.log --single-version-externally-managed

@@ -1,0 +1,31 @@
+[0.130s] Invoking command in '/home/hsun/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/more_interfaces -- -j4 -l4
+[0.666s] [  2%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.783s] [  5%] Built target more_interfaces__rosidl_generator_type_description
+[0.937s] [  5%] Built target ament_cmake_python_copy_more_interfaces
+[0.960s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[1.109s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[1.137s] [ 22%] Built target more_interfaces__cpp
+[1.278s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.306s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.790s] [01m[K/home/hsun/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/Address_book.hpp: No such file or directory
+[4.809s]     5 | #include [01;31m[K"more_interfaces/msg/Address_book.hpp"[m[K
+[4.812s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.813s] compilation terminated.
+[4.814s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[4.815s] gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/publish_address_book.dir/all] Error 2
+[4.816s] gmake[1]: *** Waiting for unfinished jobs....
+[5.855s] [ 30%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[6.046s] [ 33%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[6.597s] [ 36%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.936s] running egg_info
+[6.949s] writing more_interfaces.egg-info/PKG-INFO
+[6.952s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[6.954s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[6.975s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[6.987s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[7.173s] [ 36%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[7.365s] [ 36%] Built target ament_cmake_python_build_more_interfaces_egg
+[10.606s] [ 38%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.306s] [ 38%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[11.319s] gmake: *** [Makefile:146: all] Error 2
+[11.335s] Invoked command in '/home/hsun/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/more_interfaces -- -j4 -l4

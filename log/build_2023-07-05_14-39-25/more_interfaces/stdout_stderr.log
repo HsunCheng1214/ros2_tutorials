@@ -1,0 +1,29 @@
+[  2%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[  5%] Built target more_interfaces__rosidl_generator_type_description
+[  5%] Built target ament_cmake_python_copy_more_interfaces
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[ 19%] Built target more_interfaces__rosidl_generator_c
+[ 22%] Built target more_interfaces__cpp
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[01m[K/home/hsun/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/Address_book.hpp: No such file or directory
+    5 | #include [01;31m[K"more_interfaces/msg/Address_book.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/publish_address_book.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 30%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[ 36%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+running egg_info
+writing more_interfaces.egg-info/PKG-INFO
+writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+writing top-level names to more_interfaces.egg-info/top_level.txt
+reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[ 36%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 36%] Built target ament_cmake_python_build_more_interfaces_egg
+[ 38%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 38%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,53 @@
+[0.241s] Invoking command in '/home/hsun/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.551s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.265s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[2.582s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.639s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.748s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.766s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[5.052s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.942s] -- Found tutorial_interfaces: 0.0.0 (/home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[6.851s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[7.370s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.371s] -- Configured cppcheck include dirs: 
+[7.371s] -- Configured cppcheck exclude dirs and/or files: 
+[7.375s] -- Added test 'lint_cmake' to check CMake code style
+[7.383s] -- Added test 'uncrustify' to check C / C++ code style
+[7.383s] -- Configured uncrustify additional arguments: 
+[7.385s] -- Added test 'xmllint' to check XML markup files
+[7.395s] -- Configuring done
+[7.530s] -- Generating done
+[7.546s] -- Build files have been written to: /home/hsun/ros2_ws/build/cpp_pubsub
+[7.697s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[7.838s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[36.686s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[38.603s] [ 50%] Built target talker
+[38.680s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[38.797s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[85.962s] [100%] [32m[1mLinking CXX executable listener[0m
+[89.047s] [100%] Built target listener
+[89.108s] Invoked command in '/home/hsun/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[89.371s] Invoking command in '/home/hsun/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_pubsub
+[89.421s] -- Install configuration: ""
+[89.429s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[89.447s] -- Set runtime path of "/home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[89.453s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[89.494s] -- Set runtime path of "/home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[89.495s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[89.496s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[89.499s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[89.507s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[89.511s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[89.512s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[89.513s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[89.515s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[89.520s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[89.528s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[89.530s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[89.532s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[89.536s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[89.537s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[89.542s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[89.544s] Invoked command in '/home/hsun/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_pubsub

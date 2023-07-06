@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000868] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001199] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001440] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001640] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.057084] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.062915] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/hsun/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/hsun/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/hsun/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1553'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1700'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b9162ffa29010eb0c6e1cba364a2950f'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28175'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:26068'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1700,unix/hsun-desktop:/tmp/.ICE-unix/1700'), ('INVOCATION_ID', '549050526f204209a39f69f0f5d91be2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WC1P71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-95e69c352a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b9162ffa29010eb0c6e1cba364a2950f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1')]), 'shell': False}
+[0.084169] (-) TimerEvent: {}
+[0.186743] (-) TimerEvent: {}
+[0.289266] (-) TimerEvent: {}
+[0.392101] (-) TimerEvent: {}
+[0.493292] (-) TimerEvent: {}
+[0.594994] (-) TimerEvent: {}
+[0.696817] (-) TimerEvent: {}
+[0.712904] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.797236] (-) TimerEvent: {}
+[0.899579] (-) TimerEvent: {}
+[1.001618] (-) TimerEvent: {}
+[1.103112] (-) TimerEvent: {}
+[1.204775] (-) TimerEvent: {}
+[1.239637] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.305646] (-) TimerEvent: {}
+[1.340215] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.405925] (-) TimerEvent: {}
+[1.509603] (-) TimerEvent: {}
+[1.611523] (-) TimerEvent: {}
+[1.713501] (-) TimerEvent: {}
+[1.815105] (-) TimerEvent: {}
+[1.918007] (-) TimerEvent: {}
+[2.019465] (-) TimerEvent: {}
+[2.058972] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.099310] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.101929] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.105567] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.129987] (-) TimerEvent: {}
+[2.152795] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.233963] (-) TimerEvent: {}
+[2.337326] (-) TimerEvent: {}
+[2.441585] (-) TimerEvent: {}
+[2.542763] (-) TimerEvent: {}
+[2.644951] (-) TimerEvent: {}
+[2.751701] (-) TimerEvent: {}
+[2.795843] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.838381] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.841097] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.845118] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.852015] (-) TimerEvent: {}
+[2.953879] (-) TimerEvent: {}
+[3.039697] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[3.040852] (cpp_pubsub) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.041896] (cpp_pubsub) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.042825] (cpp_pubsub) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.043533] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[3.050671] (cpp_pubsub) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.051526] (cpp_pubsub) StderrLine: {'line': b'  any of the following names:\n'}
+[3.052348] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[3.053981] (-) TimerEvent: {}
+[3.068395] (cpp_pubsub) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.069841] (cpp_pubsub) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.070646] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[3.071443] (cpp_pubsub) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.072263] (cpp_pubsub) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.073178] (cpp_pubsub) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.074108] (cpp_pubsub) StderrLine: {'line': b'  has been installed.\n'}
+[3.074830] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[3.075621] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[3.076487] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.081930] (cpp_pubsub) StdoutLine: {'line': b'See also "/home/hsun/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".\n'}
+[3.085231] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[3.154277] (-) TimerEvent: {}
+[3.256880] (-) TimerEvent: {}
+[3.320421] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[3.334643] (-) EventReactorShutdown: {}
