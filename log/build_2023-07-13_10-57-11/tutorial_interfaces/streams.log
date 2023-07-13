@@ -1,0 +1,208 @@
+[0.310s] Invoking command in '/home/hsun/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/tutorial_interfaces -- -j4 -l4
+[1.451s] [  1%] Built target tutorial_interfaces__rosidl_generator_type_description
+[1.725s] [  1%] Built target ament_cmake_python_copy_tutorial_interfaces
+[2.090s] [  3%] Built target tutorial_interfaces__cpp
+[2.259s] [ 24%] Built target tutorial_interfaces__rosidl_generator_c
+[3.050s] [ 33%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.100s] [ 42%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[3.196s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[3.711s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_c
+[3.743s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[3.818s] [ 79%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[4.156s] [ 79%] Built target tutorial_interfaces
+[4.481s] [ 81%] Built target tutorial_interfaces__py
+[5.077s] [ 88%] Built target tutorial_interfaces__rosidl_generator_py
+[5.518s] [ 92%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[5.842s] [ 96%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.861s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.799s] running egg_info
+[8.800s] writing tutorial_interfaces.egg-info/PKG-INFO
+[8.830s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[8.830s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[8.849s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[8.868s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[9.225s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[12.949s] Invoked command in '/home/hsun/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/tutorial_interfaces -- -j4 -l4
+[16.069s] Invoking command in '/home/hsun/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/tutorial_interfaces
+[16.170s] -- Install configuration: ""
+[16.172s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[16.173s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[16.174s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json
+[16.189s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json
+[16.190s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.191s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.192s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.193s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c
+[16.193s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[16.194s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[16.195s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[16.196s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[16.205s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[16.208s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[16.214s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.217s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[16.218s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[16.224s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[16.232s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[16.236s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[16.240s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c
+[16.241s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[16.242s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[16.242s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[16.243s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[16.244s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[16.244s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[16.255s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[16.256s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[16.257s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.258s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[16.258s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[16.259s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[16.259s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[16.260s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.272s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.274s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.275s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[16.276s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.277s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[16.278s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[16.279s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[16.279s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.280s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.295s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.296s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.296s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.304s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[16.306s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[16.311s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[16.311s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[16.312s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.312s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[16.313s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[16.314s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[16.314s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[16.315s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[16.315s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[16.316s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[16.329s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[16.329s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[16.330s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.331s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.331s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.332s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[16.339s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[16.340s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.340s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[16.348s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[16.349s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[16.350s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[16.352s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.354s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.355s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.356s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.356s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.371s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[16.371s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[16.372s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.372s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[16.373s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[16.374s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[16.375s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[16.376s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[16.399s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.400s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[16.409s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[16.410s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[16.411s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[16.412s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[16.413s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[16.414s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[16.414s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[16.415s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[16.416s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[16.441s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[16.442s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[16.443s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[16.444s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.445s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[16.446s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[16.446s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[16.447s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[16.447s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.448s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[16.448s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.448s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[16.449s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces
+[16.450s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[16.451s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[16.452s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/__init__.py
+[16.453s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[16.454s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[16.455s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.456s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv
+[16.466s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv/__init__.py
+[16.466s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[16.467s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[16.468s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.469s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg
+[16.470s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/__init__.py
+[16.470s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[16.471s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_num_s.c
+[16.472s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_num.py
+[16.472s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_sphere.py
+[16.485s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[17.067s] Listing '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces'...
+[17.073s] Listing '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg'...
+[17.075s] Listing '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv'...
+[17.179s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[17.181s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[17.184s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.194s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[17.195s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[17.196s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[17.197s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[17.198s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[17.198s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[17.199s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[17.204s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[17.205s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[17.206s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[17.206s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[17.207s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[17.237s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[17.246s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[17.247s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[17.248s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[17.248s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[17.249s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[17.250s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[17.250s] -- Installing: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[17.251s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[17.252s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[17.261s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[17.261s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[17.262s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.263s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[17.264s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.284s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.290s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[17.290s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.291s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[17.297s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[17.306s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[17.307s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.318s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[17.319s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[17.330s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[17.331s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[17.332s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[17.332s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.333s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.334s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[17.335s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[17.335s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.336s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.345s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[17.347s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[17.347s] -- Up-to-date: /home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[19.884s] Invoked command in '/home/hsun/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/tutorial_interfaces

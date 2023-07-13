@@ -1,0 +1,22 @@
+[0.233s] Invoking command in '/home/hsun/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/my_package -- -j4 -l4
+[1.050s] [100%] Built target my_node
+[1.346s] Invoked command in '/home/hsun/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/my_package -- -j4 -l4
+[2.361s] Invoking command in '/home/hsun/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/my_package
+[2.487s] -- Install configuration: ""
+[2.490s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/lib/my_package/my_node
+[2.497s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.500s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.510s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.512s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.517s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[2.521s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[2.529s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[2.535s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[2.545s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[2.546s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[2.547s] -- Installing: /home/hsun/ros2_ws/install/my_package/share/my_package/package.dsv
+[2.571s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.573s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.584s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.585s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/package.xml
+[2.627s] Invoked command in '/home/hsun/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/my_package

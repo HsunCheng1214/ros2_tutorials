@@ -1,0 +1,27 @@
+[0.274s] Invoking command in '/home/hsun/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/polygon_base -- -j4 -l4
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target area_node[0m
+[0.920s] [100%] Built target area_node
+[1.063s] Invoked command in '/home/hsun/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/polygon_base -- -j4 -l4
+[1.707s] Invoking command in '/home/hsun/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/polygon_base
+[1.917s] -- Install configuration: ""
+[1.937s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/include
+[1.944s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/include/polygon_base
+[1.963s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[1.988s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[1.994s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[2.000s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[2.008s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[2.037s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[2.038s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[2.039s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[2.039s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[2.040s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[2.081s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[2.082s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[2.083s] -- Installing: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[2.121s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[2.126s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.158s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[2.162s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[2.172s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[2.686s] Invoked command in '/home/hsun/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/polygon_base
