@@ -1,0 +1,23 @@
+[13.826s] Invoking command in '/home/hsun/ros2_ws/src/python_parameters': PYTHONPATH=/home/hsun/ros2_ws/build/python_parameters/prefix_override:/home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/hsun/ros2_ws/build/python_parameters/build install --record /home/hsun/ros2_ws/build/python_parameters/install.log --single-version-externally-managed
+[21.180s] running egg_info
+[21.189s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[21.193s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[21.199s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[21.202s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[21.236s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[21.269s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[21.271s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[21.272s] running build
+[21.273s] running build_py
+[21.273s] running install
+[21.281s] running install_lib
+[21.290s] running install_data
+[21.291s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[21.292s]   warnings.warn(
+[21.293s] running install_egg_info
+[21.332s] removing '/home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info' (and everything under it)
+[21.334s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[21.337s] running install_scripts
+[21.538s] Installing minimal_param_node script to /home/hsun/ros2_ws/install/python_parameters/lib/python_parameters
+[21.539s] writing list of installed files to '/home/hsun/ros2_ws/build/python_parameters/install.log'
+[22.020s] Invoked command in '/home/hsun/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/hsun/ros2_ws/build/python_parameters/prefix_override:/home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/hsun/ros2_ws/build/python_parameters/build install --record /home/hsun/ros2_ws/build/python_parameters/install.log --single-version-externally-managed

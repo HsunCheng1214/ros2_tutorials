@@ -1,0 +1,4 @@
+Invoking command in '/home/hsun/ros2_ws/build/cpp_parameters': /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameters -- -j4 -l4
+Invoked command in '/home/hsun/ros2_ws/build/cpp_parameters' returned '0': /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameters -- -j4 -l4
+Invoking command in '/home/hsun/ros2_ws/build/cpp_parameters': /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameters
+Invoked command in '/home/hsun/ros2_ws/build/cpp_parameters' returned '0': /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameters

@@ -1,0 +1,1 @@
+Invoking command in '/home/hsun/ros2_ws/build/turtlesim': /usr/bin/cmake --build /home/hsun/ros2_ws/build/turtlesim -- -j4 -l4

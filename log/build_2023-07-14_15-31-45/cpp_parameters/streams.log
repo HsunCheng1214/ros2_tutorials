@@ -1,0 +1,24 @@
+[0.809s] Invoking command in '/home/hsun/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameters -- -j4 -l4
+[2.031s] [100%] Built target minimal_param_node
+[2.211s] Invoked command in '/home/hsun/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameters -- -j4 -l4
+[2.815s] Invoking command in '/home/hsun/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameters
+[3.018s] -- Install configuration: ""
+[3.028s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+[3.029s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/launch
+[3.035s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[3.039s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[3.039s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[3.040s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[3.041s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[3.042s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[3.046s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[3.050s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[3.051s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[3.052s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[3.058s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[3.059s] -- Installing: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[3.063s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[3.065s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[3.066s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[3.071s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[3.103s] Invoked command in '/home/hsun/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameters

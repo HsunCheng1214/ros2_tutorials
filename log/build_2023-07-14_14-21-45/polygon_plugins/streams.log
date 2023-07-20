@@ -1,0 +1,35 @@
+[0.162s] Invoking command in '/home/hsun/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base /usr/bin/cmake --build /home/hsun/ros2_ws/build/polygon_plugins -- -j4 -l4
+[0.953s] [100%] Built target polygon_plugins
+[1.127s] Invoked command in '/home/hsun/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base /usr/bin/cmake --build /home/hsun/ros2_ws/build/polygon_plugins -- -j4 -l4
+[1.697s] Invoking command in '/home/hsun/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base /usr/bin/cmake --install /home/hsun/ros2_ws/build/polygon_plugins
+[1.873s] -- Install configuration: ""
+[1.874s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[1.874s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/include
+[1.888s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[1.890s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[1.903s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[1.907s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[1.910s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[1.938s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[1.938s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[1.940s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[1.987s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[1.988s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[1.988s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[1.989s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[1.990s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[1.990s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[2.010s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[2.013s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[2.014s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[2.015s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[2.016s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[2.052s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[2.054s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[2.063s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.065s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[2.066s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[2.068s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[2.069s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[2.079s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[2.080s] Invoked command in '/home/hsun/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base /usr/bin/cmake --install /home/hsun/ros2_ws/build/polygon_plugins

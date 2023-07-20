@@ -1,0 +1,4 @@
+Invoking command in '/home/hsun/ros2_ws/build/polygon_base': /usr/bin/cmake --build /home/hsun/ros2_ws/build/polygon_base -- -j4 -l4
+Invoked command in '/home/hsun/ros2_ws/build/polygon_base' returned '0': /usr/bin/cmake --build /home/hsun/ros2_ws/build/polygon_base -- -j4 -l4
+Invoking command in '/home/hsun/ros2_ws/build/polygon_base': /usr/bin/cmake --install /home/hsun/ros2_ws/build/polygon_base
+Invoked command in '/home/hsun/ros2_ws/build/polygon_base' returned '0': /usr/bin/cmake --install /home/hsun/ros2_ws/build/polygon_base

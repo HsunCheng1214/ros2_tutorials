@@ -1,3 +1,5 @@
+/home/hsun/ros2_ws/install/custom_action_cpp/lib/custom_action_cpp/fibonacci_action_client
+/home/hsun/ros2_ws/install/custom_action_cpp/lib/libaction_client.so
 /home/hsun/ros2_ws/install/custom_action_cpp/lib/custom_action_cpp/fibonacci_action_server
 /home/hsun/ros2_ws/install/custom_action_cpp/lib/libaction_server.so
 /home/hsun/ros2_ws/install/custom_action_cpp/share/ament_index/resource_index/package_run_dependencies/custom_action_cpp

@@ -1,0 +1,24 @@
+[11.796s] Invoking command in '/home/hsun/ros2_ws/src/py_srvcli': PYTHONPATH=/home/hsun/ros2_ws/build/py_srvcli/prefix_override:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/hsun/ros2_ws/build/py_srvcli/build install --record /home/hsun/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[17.942s] running egg_info
+[17.960s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[17.969s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[17.980s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[17.980s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[17.981s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[17.982s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[17.991s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[17.991s]   warnings.warn(
+[17.992s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[17.993s] running build
+[17.993s] running build_py
+[18.005s] running install
+[18.005s] running install_lib
+[18.006s] running install_data
+[18.007s] running install_egg_info
+[18.022s] removing '/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[18.024s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[18.035s] running install_scripts
+[18.274s] Installing client script to /home/hsun/ros2_ws/install/py_srvcli/lib/py_srvcli
+[18.280s] Installing service script to /home/hsun/ros2_ws/install/py_srvcli/lib/py_srvcli
+[18.284s] writing list of installed files to '/home/hsun/ros2_ws/build/py_srvcli/install.log'
+[18.773s] Invoked command in '/home/hsun/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/hsun/ros2_ws/build/py_srvcli/prefix_override:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/hsun/ros2_ws/build/py_srvcli/build install --record /home/hsun/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

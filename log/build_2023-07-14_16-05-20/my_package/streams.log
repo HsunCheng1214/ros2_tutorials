@@ -1,0 +1,22 @@
+[0.230s] Invoking command in '/home/hsun/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example /usr/bin/cmake --build /home/hsun/ros2_ws/build/my_package -- -j4 -l4
+[1.206s] [100%] Built target my_node
+[1.384s] Invoked command in '/home/hsun/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example /usr/bin/cmake --build /home/hsun/ros2_ws/build/my_package -- -j4 -l4
+[2.079s] Invoking command in '/home/hsun/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example /usr/bin/cmake --install /home/hsun/ros2_ws/build/my_package
+[2.184s] -- Install configuration: ""
+[2.186s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/lib/my_package/my_node
+[2.188s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.190s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.193s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.194s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.196s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[2.198s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[2.200s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[2.201s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[2.203s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[2.205s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[2.206s] -- Installing: /home/hsun/ros2_ws/install/my_package/share/my_package/package.dsv
+[2.209s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.211s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.212s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.214s] -- Up-to-date: /home/hsun/ros2_ws/install/my_package/share/my_package/package.xml
+[2.252s] Invoked command in '/home/hsun/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example /usr/bin/cmake --install /home/hsun/ros2_ws/build/my_package

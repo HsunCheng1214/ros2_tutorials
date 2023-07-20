@@ -1,0 +1,4 @@
+Invoking command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler': /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+Invoked command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler' returned '0': /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+Invoking command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler': /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameter_event_handler
+Invoked command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler' returned '0': /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameter_event_handler

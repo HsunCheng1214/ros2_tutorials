@@ -1,0 +1,38 @@
+[12.024s] Invoking command in '/home/hsun/ros2_ws/src/launch_tutorial': PYTHONPATH=/home/hsun/ros2_ws/build/launch_tutorial/prefix_override:/home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/hsun/ros2_ws/build/launch_tutorial/build install --record /home/hsun/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[17.698s] running egg_info
+[17.712s] creating ../../build/launch_tutorial/launch_tutorial.egg-info
+[17.714s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[17.725s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[17.732s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[17.733s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[17.734s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[17.741s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[17.769s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[17.788s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[17.790s] running build
+[17.791s] running build_py
+[17.808s] creating /home/hsun/ros2_ws/build/launch_tutorial/build
+[17.810s] creating /home/hsun/ros2_ws/build/launch_tutorial/build/lib
+[17.811s] creating /home/hsun/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[17.826s] copying launch_tutorial/__init__.py -> /home/hsun/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[17.838s] running install
+[17.839s] running install_lib
+[17.840s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[17.854s]   warnings.warn(
+[17.856s] creating /home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[17.857s] copying /home/hsun/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[17.866s] byte-compiling /home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[17.868s] running install_data
+[17.897s] creating /home/hsun/ros2_ws/install/launch_tutorial/share/ament_index
+[17.902s] creating /home/hsun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index
+[17.904s] creating /home/hsun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[17.909s] copying resource/launch_tutorial -> /home/hsun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[17.910s] copying package.xml -> /home/hsun/ros2_ws/install/launch_tutorial/share/launch_tutorial
+[17.911s] creating /home/hsun/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[17.912s] copying launch/example_main_launch.py -> /home/hsun/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[17.912s] copying launch/example_substitutions_launch.py -> /home/hsun/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[17.925s] running install_egg_info
+[17.935s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[17.949s] running install_scripts
+[18.296s] writing list of installed files to '/home/hsun/ros2_ws/build/launch_tutorial/install.log'
+[19.298s] Invoked command in '/home/hsun/ros2_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/hsun/ros2_ws/build/launch_tutorial/prefix_override:/home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/hsun/ros2_ws/build/launch_tutorial/build install --record /home/hsun/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed

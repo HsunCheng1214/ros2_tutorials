@@ -1,0 +1,24 @@
+[0.255s] Invoking command in '/home/hsun/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces/lib PYTHONPATH=/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.971s] [ 50%] Built target talker
+[1.352s] [100%] Built target listener
+[1.570s] Invoked command in '/home/hsun/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces/lib PYTHONPATH=/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[2.175s] Invoking command in '/home/hsun/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces/lib PYTHONPATH=/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_pubsub
+[2.287s] -- Install configuration: ""
+[2.303s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.306s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[2.316s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.325s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.327s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.328s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.369s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.369s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.370s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.371s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.372s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.373s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.374s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.374s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.375s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.376s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.419s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.427s] Invoked command in '/home/hsun/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces/lib PYTHONPATH=/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_pubsub

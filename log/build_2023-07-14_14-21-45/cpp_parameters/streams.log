@@ -1,0 +1,24 @@
+[0.161s] Invoking command in '/home/hsun/ros2_ws/build/cpp_parameters': /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameters -- -j4 -l4
+[0.850s] [100%] Built target minimal_param_node
+[0.960s] Invoked command in '/home/hsun/ros2_ws/build/cpp_parameters' returned '0': /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameters -- -j4 -l4
+[1.419s] Invoking command in '/home/hsun/ros2_ws/build/cpp_parameters': /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameters
+[1.502s] -- Install configuration: ""
+[1.507s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+[1.509s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/launch
+[1.510s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[1.511s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[1.516s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[1.516s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[1.517s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[1.518s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[1.519s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[1.523s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[1.524s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[1.525s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[1.525s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[1.526s] -- Installing: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[1.533s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[1.536s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[1.539s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[1.540s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[1.564s] Invoked command in '/home/hsun/ros2_ws/build/cpp_parameters' returned '0': /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameters

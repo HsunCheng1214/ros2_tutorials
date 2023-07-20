@@ -1,0 +1,23 @@
+[0.234s] Invoking command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler': /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+[0.806s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[1.379s] [100%] Built target parameter_event_handler
+[2.524s] Invoked command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler' returned '0': /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+[3.319s] Invoking command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler': /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameter_event_handler
+[3.437s] -- Install configuration: ""
+[3.438s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[3.438s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[3.439s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[3.440s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[3.445s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[3.446s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[3.446s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[3.447s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[3.448s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[3.457s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[3.461s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[3.462s] -- Installing: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[3.464s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[3.465s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[3.466s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[3.467s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[3.508s] Invoked command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler' returned '0': /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameter_event_handler

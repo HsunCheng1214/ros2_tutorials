@@ -1,0 +1,25 @@
+[0.208s] Invoking command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+[0.807s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[50.307s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[53.529s] [100%] Built target parameter_event_handler
+[53.598s] Invoked command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+[53.914s] Invoking command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameter_event_handler
+[53.990s] -- Install configuration: ""
+[53.999s] -- Installing: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[54.066s] -- Set runtime path of "/home/hsun/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[54.070s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[54.078s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[54.080s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[54.082s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[54.084s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[54.086s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[54.095s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[54.103s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[54.105s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[54.106s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[54.106s] -- Installing: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[54.107s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[54.109s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[54.123s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[54.125s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[54.127s] Invoked command in '/home/hsun/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_parameter_event_handler

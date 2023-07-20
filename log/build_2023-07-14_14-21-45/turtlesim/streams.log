@@ -1,0 +1,28 @@
+[0.238s] Invoking command in '/home/hsun/ros2_ws/build/turtlesim': /usr/bin/cmake --build /home/hsun/ros2_ws/build/turtlesim -- -j4 -l4
+[1.201s] [  0%] Built target turtlesim__rosidl_generator_type_description
+[1.721s] [  0%] Built target ament_cmake_python_copy_turtlesim
+[2.053s] [ 23%] Built target turtlesim__rosidl_generator_c
+[6.593s] running egg_info
+[6.611s] writing turtlesim.egg-info/PKG-INFO
+[6.614s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[6.617s] writing top-level names to turtlesim.egg-info/top_level.txt
+[6.653s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[6.655s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[7.213s] [ 23%] Built target ament_cmake_python_build_turtlesim_egg
+[7.569s] [ 32%] Built target turtlesim__rosidl_typesupport_introspection_c
+[7.966s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[8.304s] [ 50%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[8.745s] [ 51%] Built target turtlesim__cpp
+[9.102s] [ 59%] Built target turtlesim__rosidl_typesupport_cpp
+[9.715s] [ 67%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[10.073s] [ 69%] Built target turtle_teleop_key
+[10.499s] [ 70%] Built target draw_square
+[10.849s] [ 72%] Built target mimic
+[11.242s] [ 78%] Built target turtlesim_node
+[11.558s] [ 86%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[11.745s] [ 86%] Built target turtlesim
+[11.971s] [ 86%] Built target turtlesim__py
+[12.190s] [ 94%] Built target turtlesim__rosidl_generator_py
+[12.375s] [ 96%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[12.561s] [ 98%] Built target turtlesim__rosidl_typesupport_c__pyext
+[12.740s] [100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext

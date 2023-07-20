@@ -1,0 +1,148 @@
+[0.134s] Invoking command in '/home/hsun/ros2_ws/build/more_interfaces': /usr/bin/cmake --build /home/hsun/ros2_ws/build/more_interfaces -- -j4 -l4
+[0.693s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[1.032s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[1.263s] [  5%] Built target more_interfaces__cpp
+[5.894s] running egg_info
+[5.904s] writing more_interfaces.egg-info/PKG-INFO
+[5.909s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[5.919s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[5.950s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[5.958s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[6.265s] [  5%] Built target ament_cmake_python_build_more_interfaces_egg
+[6.459s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[6.651s] [ 27%] Built target more_interfaces__rosidl_typesupport_cpp
+[6.826s] [ 36%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[6.967s] [ 44%] Built target more_interfaces__rosidl_typesupport_c
+[7.149s] [ 52%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[7.389s] [ 58%] Built target publish_address_book
+[7.691s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.097s] [ 75%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[8.798s] [ 75%] Built target more_interfaces
+[8.925s] [ 77%] Built target more_interfaces__py
+[9.168s] [ 83%] Built target more_interfaces__rosidl_generator_py
+[9.774s] [ 88%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.970s] [ 94%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[10.316s] [100%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.462s] Invoked command in '/home/hsun/ros2_ws/build/more_interfaces' returned '0': /usr/bin/cmake --build /home/hsun/ros2_ws/build/more_interfaces -- -j4 -l4
+[14.259s] Invoking command in '/home/hsun/ros2_ws/build/more_interfaces': /usr/bin/cmake --install /home/hsun/ros2_ws/build/more_interfaces
+[14.564s] -- Install configuration: ""
+[14.564s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[14.565s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[14.566s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.json
+[14.571s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.572s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.573s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.573s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__description.c
+[14.574s] -- Installing: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[14.592s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[14.593s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[14.595s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[14.595s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[14.596s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.597s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[14.598s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[14.598s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[14.600s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[14.600s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.601s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.602s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.633s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[14.634s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.635s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[14.636s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.637s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.638s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.639s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[14.639s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[14.640s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[14.641s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[14.642s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.655s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.658s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.663s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[14.675s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[14.676s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.678s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[14.681s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.703s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.705s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.705s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[14.706s] -- Installing: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[14.708s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.708s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[14.709s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[14.709s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.710s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.711s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.712s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[14.712s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[14.713s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[14.714s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[14.714s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[14.715s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[14.716s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info
+[14.716s] -- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.717s] -- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[14.718s] -- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.722s] -- Installing: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[14.723s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces
+[14.724s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[14.724s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.725s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[14.726s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/__init__.py
+[14.728s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.729s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[14.737s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.741s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.742s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg
+[14.743s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/__init__.py
+[14.744s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_address_book.py
+[14.744s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_address_book_s.c
+[14.745s] Listing '/home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces'...
+[14.746s] Listing '/home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg'...
+[14.759s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.761s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.762s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.763s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[14.763s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[14.764s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[14.765s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[14.766s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[14.766s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[14.767s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[14.768s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[14.768s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[14.769s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[14.770s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[14.773s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[14.774s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[14.779s] -- Installing: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[14.785s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[14.785s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[14.786s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[14.786s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[14.787s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.787s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[14.798s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.799s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.803s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[14.803s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.814s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[14.815s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[14.821s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[14.821s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.825s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[14.826s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[14.839s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[14.840s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[14.840s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[14.841s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.842s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[14.843s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[14.843s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.844s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.845s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.846s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[14.866s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[14.868s] -- Up-to-date: /home/hsun/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[17.727s] Invoked command in '/home/hsun/ros2_ws/build/more_interfaces' returned '0': /usr/bin/cmake --install /home/hsun/ros2_ws/build/more_interfaces
