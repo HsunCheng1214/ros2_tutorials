@@ -5,7 +5,7 @@ set(learning_tf2_cpp_BUILD_DEPENDS "geometry_msgs" "rclcpp" "tf2" "tf2_ros" "tur
 set(learning_tf2_cpp_BUILDTOOL_DEPENDS "ament_cmake")
 set(learning_tf2_cpp_BUILD_EXPORT_DEPENDS "geometry_msgs" "rclcpp" "tf2" "tf2_ros" "turtlesim")
 set(learning_tf2_cpp_BUILDTOOL_EXPORT_DEPENDS )
-set(learning_tf2_cpp_EXEC_DEPENDS "geometry_msgs" "rclcpp" "tf2" "tf2_ros" "turtlesim")
+set(learning_tf2_cpp_EXEC_DEPENDS "launch" "launch_ros" "geometry_msgs" "rclcpp" "tf2" "tf2_ros" "turtlesim")
 set(learning_tf2_cpp_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(learning_tf2_cpp_GROUP_DEPENDS )
 set(learning_tf2_cpp_MEMBER_OF_GROUPS )
