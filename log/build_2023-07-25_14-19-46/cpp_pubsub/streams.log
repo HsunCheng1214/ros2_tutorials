@@ -1,0 +1,53 @@
+[0.129s] Invoking command in '/home/hsun/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.323s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.694s] -- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)
+[2.069s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.148s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.340s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.354s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.674s] -- Found tutorial_interfaces: 0.0.0 (/home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[6.724s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[7.257s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.260s] -- Configured cppcheck include dirs: 
+[7.261s] -- Configured cppcheck exclude dirs and/or files: 
+[7.268s] -- Added test 'lint_cmake' to check CMake code style
+[7.277s] -- Added test 'uncrustify' to check C / C++ code style
+[7.278s] -- Configured uncrustify additional arguments: 
+[7.284s] -- Added test 'xmllint' to check XML markup files
+[7.292s] -- Configuring done
+[7.414s] -- Generating done
+[7.427s] -- Build files have been written to: /home/hsun/ros2_ws/build/cpp_pubsub
+[7.617s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[7.746s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[40.326s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[41.798s] [ 50%] Built target talker
+[41.869s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[41.983s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[86.359s] [100%] [32m[1mLinking CXX executable listener[0m
+[88.445s] [100%] Built target listener
+[88.500s] Invoked command in '/home/hsun/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[88.717s] Invoking command in '/home/hsun/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_pubsub
+[88.761s] -- Install configuration: ""
+[88.762s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[88.771s] -- Set runtime path of "/home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[88.774s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[88.811s] -- Set runtime path of "/home/hsun/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[88.811s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[88.813s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[88.815s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[88.816s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[88.818s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[88.820s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[88.821s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[88.823s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[88.824s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[88.826s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[88.827s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[88.829s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[88.832s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[88.833s] -- Installing: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[88.834s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[88.852s] Invoked command in '/home/hsun/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_pubsub

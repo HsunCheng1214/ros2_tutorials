@@ -1,0 +1,29 @@
+[5.925s] Invoking command in '/home/hsun/ros2_ws/src/launch_tutorial': PYTHONPATH=/home/hsun/ros2_ws/build/launch_tutorial/prefix_override:/home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/hsun/ros2_ws/build/launch_tutorial/build install --record /home/hsun/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[8.626s] running egg_info
+[8.631s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[8.634s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[8.636s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[8.640s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[8.641s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[8.654s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[8.660s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[8.661s] running build
+[8.662s] running build_py
+[8.663s] copying launch_tutorial/__init__.py -> /home/hsun/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[8.664s] running install
+[8.667s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.668s]   warnings.warn(
+[8.670s] running install_lib
+[8.675s] copying /home/hsun/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial
+[8.682s] byte-compiling /home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial/__init__.py to __init__.cpython-310.pyc
+[8.684s] running install_data
+[8.687s] copying resource/launch_tutorial -> /home/hsun/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[8.688s] copying package.xml -> /home/hsun/ros2_ws/install/launch_tutorial/share/launch_tutorial
+[8.690s] copying launch/example_main_launch.py -> /home/hsun/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[8.691s] copying launch/example_substitutions_launch.py -> /home/hsun/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[8.692s] running install_egg_info
+[8.701s] removing '/home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[8.704s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[8.718s] running install_scripts
+[8.918s] writing list of installed files to '/home/hsun/ros2_ws/build/launch_tutorial/install.log'
+[9.171s] Invoked command in '/home/hsun/ros2_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/hsun/ros2_ws/build/launch_tutorial/prefix_override:/home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/hsun/ros2_ws/build/launch_tutorial/build install --record /home/hsun/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed

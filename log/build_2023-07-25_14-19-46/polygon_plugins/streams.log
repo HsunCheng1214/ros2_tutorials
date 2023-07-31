@@ -1,0 +1,54 @@
+[0.112s] Invoking command in '/home/hsun/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/polygon_plugins -- -j4 -l4
+[0.313s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.659s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.685s] -- Found polygon_base: 0.0.0 (/home/hsun/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[1.694s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[2.092s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.825s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.829s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hsun/ros2_ws/src/polygon_plugins/include>
+[2.832s] -- Configured cppcheck exclude dirs and/or files: 
+[2.841s] -- Added test 'lint_cmake' to check CMake code style
+[2.853s] -- Added test 'uncrustify' to check C / C++ code style
+[2.855s] -- Configured uncrustify additional arguments: 
+[2.860s] -- Added test 'xmllint' to check XML markup files
+[2.880s] -- Configuring done
+[2.948s] -- Generating done
+[2.963s] -- Build files have been written to: /home/hsun/ros2_ws/build/polygon_plugins
+[3.122s] [35m[1mConsolidate compiler generated dependencies of target polygon_plugins[0m
+[3.217s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[8.746s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[9.348s] [100%] Built target polygon_plugins
+[9.436s] Invoked command in '/home/hsun/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/polygon_plugins -- -j4 -l4
+[9.672s] Invoking command in '/home/hsun/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/polygon_plugins
+[9.745s] -- Install configuration: ""
+[9.747s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[9.748s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/include
+[9.750s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[9.753s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[9.755s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[9.756s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[9.762s] -- Set runtime path of "/home/hsun/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[9.763s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[9.764s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[9.766s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[9.768s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[9.771s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[9.772s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[9.774s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[9.776s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[9.778s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[9.780s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[9.782s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[9.784s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[9.786s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[9.788s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[9.790s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[9.793s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[9.795s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[9.797s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.799s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[9.801s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[9.811s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[9.814s] -- Installing: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[9.816s] -- Up-to-date: /home/hsun/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[9.844s] Invoked command in '/home/hsun/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/polygon_plugins

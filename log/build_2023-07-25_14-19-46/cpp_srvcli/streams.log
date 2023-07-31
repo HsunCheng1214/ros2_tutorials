@@ -1,0 +1,53 @@
+[0.118s] Invoking command in '/home/hsun/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[0.293s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.544s] -- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)
+[1.804s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.862s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.945s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.845s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.864s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.208s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.089s] -- Found tutorial_interfaces: 0.0.0 (/home/hsun/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[6.045s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.569s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.571s] -- Configured cppcheck include dirs: 
+[6.573s] -- Configured cppcheck exclude dirs and/or files: 
+[6.579s] -- Added test 'lint_cmake' to check CMake code style
+[6.589s] -- Added test 'uncrustify' to check C / C++ code style
+[6.591s] -- Configured uncrustify additional arguments: 
+[6.596s] -- Added test 'xmllint' to check XML markup files
+[6.605s] -- Configuring done
+[6.715s] -- Generating done
+[6.727s] -- Build files have been written to: /home/hsun/ros2_ws/build/cpp_srvcli
+[6.882s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[7.020s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[36.330s] [ 50%] [32m[1mLinking CXX executable server[0m
+[37.704s] [ 50%] Built target server
+[37.778s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[37.913s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[66.422s] [100%] [32m[1mLinking CXX executable client[0m
+[67.717s] [100%] Built target client
+[67.803s] Invoked command in '/home/hsun/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[68.049s] Invoking command in '/home/hsun/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_srvcli
+[68.115s] -- Install configuration: ""
+[68.116s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[68.125s] -- Set runtime path of "/home/hsun/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[68.127s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[68.139s] -- Set runtime path of "/home/hsun/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[68.140s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[68.142s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[68.144s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[68.146s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[68.148s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[68.149s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[68.151s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[68.153s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[68.155s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[68.160s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[68.164s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[68.167s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[68.173s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[68.177s] -- Installing: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[68.179s] -- Up-to-date: /home/hsun/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[68.200s] Invoked command in '/home/hsun/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/cpp_srvcli

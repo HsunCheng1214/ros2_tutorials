@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.002638] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.003744] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.004032] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.006927] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.007298] (-) JobUnselected: {'identifier': 'custom_action_cpp'}
+[0.007930] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.008229] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.008366] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.008542] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.008654] (-) JobUnselected: {'identifier': 'my_package'}
+[0.008760] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.008896] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.010718] (-) JobUnselected: {'identifier': 'py_launch_example'}
+[0.011021] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.011426] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.011653] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.011766] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.011920] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.012048] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.100397] (-) TimerEvent: {}
+[0.130499] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.137132] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.141320] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hsun/ros2_ws/build/learning_tf2_cpp', '--', '-j4', '-l4'], 'cwd': '/home/hsun/ros2_ws/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib:/home/hsun/ros2_ws/install/turtlesim/lib:/home/hsun/ros2_ws/install/polygon_plugins/lib:/home/hsun/ros2_ws/install/more_interfaces/lib:/home/hsun/ros2_ws/install/custom_action_cpp/lib:/home/hsun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src/learning_tf2_cpp/src'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1580'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c3439f2e165fcf08fa49b8a964bf95ff'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5664'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hsun/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:25413'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1721,unix/hsun-desktop:/tmp/.ICE-unix/1721'), ('INVOCATION_ID', '6b62b072797a407abcdae4fbe9235c36'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VHJ871'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-969c4b3c87.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/launch_tutorial:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c3439f2e165fcf08fa49b8a964bf95ff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron')]), 'shell': False}
+[0.200549] (-) TimerEvent: {}
+[0.301420] (-) TimerEvent: {}
+[0.402354] (-) TimerEvent: {}
+[0.503572] (-) TimerEvent: {}
+[0.506396] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.603757] (-) TimerEvent: {}
+[0.704666] (-) TimerEvent: {}
+[0.805655] (-) TimerEvent: {}
+[0.907039] (-) TimerEvent: {}
+[1.008945] (-) TimerEvent: {}
+[1.110427] (-) TimerEvent: {}
+[1.211556] (-) TimerEvent: {}
+[1.312728] (-) TimerEvent: {}
+[1.414264] (-) TimerEvent: {}
+[1.515412] (-) TimerEvent: {}
+[1.616718] (-) TimerEvent: {}
+[1.717781] (-) TimerEvent: {}
+[1.819691] (-) TimerEvent: {}
+[1.921745] (-) TimerEvent: {}
+[2.024197] (-) TimerEvent: {}
+[2.126414] (-) TimerEvent: {}
+[2.181413] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[2.226623] (-) TimerEvent: {}
+[2.327580] (-) TimerEvent: {}
+[2.428811] (-) TimerEvent: {}
+[2.531016] (-) TimerEvent: {}
+[2.552749] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.631574] (-) TimerEvent: {}
+[2.654838] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.731809] (-) TimerEvent: {}
+[2.819567] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.832105] (-) TimerEvent: {}
+[2.933475] (-) TimerEvent: {}
+[2.989120] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.033596] (-) TimerEvent: {}
+[3.134536] (-) TimerEvent: {}
+[3.235903] (-) TimerEvent: {}
+[3.337228] (-) TimerEvent: {}
+[3.438517] (-) TimerEvent: {}
+[3.541024] (-) TimerEvent: {}
+[3.642972] (-) TimerEvent: {}
+[3.722681] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[3.742664] (-) TimerEvent: {}
+[3.843697] (-) TimerEvent: {}
+[3.945411] (-) TimerEvent: {}
+[4.047386] (-) TimerEvent: {}
+[4.148793] (-) TimerEvent: {}
+[4.251792] (-) TimerEvent: {}
+[4.354297] (-) TimerEvent: {}
+[4.455217] (-) TimerEvent: {}
+[4.556117] (-) TimerEvent: {}
+[4.657542] (-) TimerEvent: {}
+[4.664631] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[4.692777] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.757795] (-) TimerEvent: {}
+[4.859331] (-) TimerEvent: {}
+[4.960426] (-) TimerEvent: {}
+[5.061319] (-) TimerEvent: {}
+[5.162911] (-) TimerEvent: {}
+[5.267072] (-) TimerEvent: {}
+[5.368187] (-) TimerEvent: {}
+[5.469792] (-) TimerEvent: {}
+[5.572222] (-) TimerEvent: {}
+[5.675632] (-) TimerEvent: {}
+[5.776597] (-) TimerEvent: {}
+[5.877520] (-) TimerEvent: {}
+[5.978449] (-) TimerEvent: {}
+[6.079612] (-) TimerEvent: {}
+[6.181651] (-) TimerEvent: {}
+[6.264341] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.282303] (-) TimerEvent: {}
+[6.384374] (-) TimerEvent: {}
+[6.485490] (-) TimerEvent: {}
+[6.586885] (-) TimerEvent: {}
+[6.688798] (-) TimerEvent: {}
+[6.792095] (-) TimerEvent: {}
+[6.893826] (-) TimerEvent: {}
+[6.996608] (-) TimerEvent: {}
+[7.097551] (-) TimerEvent: {}
+[7.198538] (-) TimerEvent: {}
+[7.299604] (-) TimerEvent: {}
+[7.400803] (-) TimerEvent: {}
+[7.416169] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.31.4 (/opt/ros/iron/share/tf2/cmake)\n'}
+[7.479749] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.31.4 (/opt/ros/iron/share/tf2_ros/cmake)\n'}
+[7.501123] (-) TimerEvent: {}
+[7.602239] (-) TimerEvent: {}
+[7.704001] (-) TimerEvent: {}
+[7.805068] (-) TimerEvent: {}
+[7.906004] (-) TimerEvent: {}
+[8.007221] (-) TimerEvent: {}
+[8.108892] (-) TimerEvent: {}
+[8.209986] (-) TimerEvent: {}
+[8.311098] (-) TimerEvent: {}
+[8.412060] (-) TimerEvent: {}
+[8.513088] (-) TimerEvent: {}
+[8.614426] (-) TimerEvent: {}
+[8.716737] (-) TimerEvent: {}
+[8.817913] (-) TimerEvent: {}
+[8.920524] (-) TimerEvent: {}
+[9.027177] (-) TimerEvent: {}
+[9.128401] (-) TimerEvent: {}
+[9.229321] (-) TimerEvent: {}
+[9.330311] (-) TimerEvent: {}
+[9.431447] (-) TimerEvent: {}
+[9.532688] (-) TimerEvent: {}
+[9.633720] (-) TimerEvent: {}
+[9.734747] (-) TimerEvent: {}
+[9.836260] (-) TimerEvent: {}
+[9.941960] (-) TimerEvent: {}
+[10.043039] (-) TimerEvent: {}
+[10.116810] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.6.1 (/home/hsun/ros2_ws/install/turtlesim/share/turtlesim/cmake)\n'}
+[10.143248] (-) TimerEvent: {}
+[10.244096] (-) TimerEvent: {}
+[10.344912] (-) TimerEvent: {}
+[10.445673] (-) TimerEvent: {}
+[10.495319] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[10.545851] (-) TimerEvent: {}
+[10.646665] (-) TimerEvent: {}
+[10.747628] (-) TimerEvent: {}
+[10.848422] (-) TimerEvent: {}
+[10.949321] (-) TimerEvent: {}
+[11.050380] (-) TimerEvent: {}
+[11.066159] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.067390] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.068206] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.078242] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.093014] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.095134] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.099741] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.111123] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.150597] (-) TimerEvent: {}
+[11.250237] (learning_tf2_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[11.251025] (-) TimerEvent: {}
+[11.263763] (learning_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/hsun/ros2_ws/build/learning_tf2_cpp\n'}
+[11.351304] (-) TimerEvent: {}
+[11.452225] (-) TimerEvent: {}
+[11.472067] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target static_turtle_tf2_broadcaster\x1b[0m\n'}
+[11.552406] (-) TimerEvent: {}
+[11.620963] (learning_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[11.652670] (-) TimerEvent: {}
+[11.753654] (-) TimerEvent: {}
+[11.854494] (-) TimerEvent: {}
+[11.955283] (-) TimerEvent: {}
+[12.056357] (-) TimerEvent: {}
+[12.157118] (-) TimerEvent: {}
+[12.257916] (-) TimerEvent: {}
+[12.358699] (-) TimerEvent: {}
+[12.459552] (-) TimerEvent: {}
+[12.560372] (-) TimerEvent: {}
+[12.661145] (-) TimerEvent: {}
+[12.761886] (-) TimerEvent: {}
+[12.862614] (-) TimerEvent: {}
+[12.963500] (-) TimerEvent: {}
+[13.064299] (-) TimerEvent: {}
+[13.165055] (-) TimerEvent: {}
+[13.265782] (-) TimerEvent: {}
+[13.366539] (-) TimerEvent: {}
+[13.467320] (-) TimerEvent: {}
+[13.568183] (-) TimerEvent: {}
+[13.668910] (-) TimerEvent: {}
+[13.769664] (-) TimerEvent: {}
+[13.870404] (-) TimerEvent: {}
+[13.971215] (-) TimerEvent: {}
+[14.072388] (-) TimerEvent: {}
+[14.173621] (-) TimerEvent: {}
+[14.274554] (-) TimerEvent: {}
+[14.375897] (-) TimerEvent: {}
+[14.476862] (-) TimerEvent: {}
+[14.577669] (-) TimerEvent: {}
+[14.678697] (-) TimerEvent: {}
+[14.779549] (-) TimerEvent: {}
+[14.880432] (-) TimerEvent: {}
+[14.981277] (-) TimerEvent: {}
+[15.082141] (-) TimerEvent: {}
+[15.183169] (-) TimerEvent: {}
+[15.284007] (-) TimerEvent: {}
+[15.384848] (-) TimerEvent: {}
+[15.485706] (-) TimerEvent: {}
+[15.586676] (-) TimerEvent: {}
+[15.687633] (-) TimerEvent: {}
+[15.788526] (-) TimerEvent: {}
+[15.889484] (-) TimerEvent: {}
+[15.990439] (-) TimerEvent: {}
+[16.091301] (-) TimerEvent: {}
+[16.192298] (-) TimerEvent: {}
+[16.293234] (-) TimerEvent: {}
+[16.394085] (-) TimerEvent: {}
+[16.495115] (-) TimerEvent: {}
+[16.596137] (-) TimerEvent: {}
+[16.697103] (-) TimerEvent: {}
+[16.797987] (-) TimerEvent: {}
+[16.898948] (-) TimerEvent: {}
+[16.999777] (-) TimerEvent: {}
+[17.100736] (-) TimerEvent: {}
+[17.201573] (-) TimerEvent: {}
+[17.302464] (-) TimerEvent: {}
+[17.403313] (-) TimerEvent: {}
+[17.504234] (-) TimerEvent: {}
+[17.605220] (-) TimerEvent: {}
+[17.706070] (-) TimerEvent: {}
+[17.806964] (-) TimerEvent: {}
+[17.907787] (-) TimerEvent: {}
+[18.008687] (-) TimerEvent: {}
+[18.109637] (-) TimerEvent: {}
+[18.210506] (-) TimerEvent: {}
+[18.311360] (-) TimerEvent: {}
+[18.412322] (-) TimerEvent: {}
+[18.513165] (-) TimerEvent: {}
+[18.613979] (-) TimerEvent: {}
+[18.714989] (-) TimerEvent: {}
+[18.815989] (-) TimerEvent: {}
+[18.916834] (-) TimerEvent: {}
+[19.017716] (-) TimerEvent: {}
+[19.118509] (-) TimerEvent: {}
+[19.219477] (-) TimerEvent: {}
+[19.320370] (-) TimerEvent: {}
+[19.421220] (-) TimerEvent: {}
+[19.522083] (-) TimerEvent: {}
+[19.622892] (-) TimerEvent: {}
+[19.723761] (-) TimerEvent: {}
+[19.824656] (-) TimerEvent: {}
+[19.925536] (-) TimerEvent: {}
+[20.026545] (-) TimerEvent: {}
+[20.127463] (-) TimerEvent: {}
+[20.228432] (-) TimerEvent: {}
+[20.329236] (-) TimerEvent: {}
+[20.430072] (-) TimerEvent: {}
+[20.530992] (-) TimerEvent: {}
+[20.631947] (-) TimerEvent: {}
+[20.732769] (-) TimerEvent: {}
+[20.833601] (-) TimerEvent: {}
+[20.934437] (-) TimerEvent: {}
+[21.035277] (-) TimerEvent: {}
+[21.136212] (-) TimerEvent: {}
+[21.237068] (-) TimerEvent: {}
+[21.337925] (-) TimerEvent: {}
+[21.438801] (-) TimerEvent: {}
+[21.539675] (-) TimerEvent: {}
+[21.640562] (-) TimerEvent: {}
+[21.741409] (-) TimerEvent: {}
+[21.842294] (-) TimerEvent: {}
+[21.943206] (-) TimerEvent: {}
+[22.044040] (-) TimerEvent: {}
+[22.144880] (-) TimerEvent: {}
+[22.245689] (-) TimerEvent: {}
+[22.346596] (-) TimerEvent: {}
+[22.447459] (-) TimerEvent: {}
+[22.548397] (-) TimerEvent: {}
+[22.649211] (-) TimerEvent: {}
+[22.750132] (-) TimerEvent: {}
+[22.850996] (-) TimerEvent: {}
+[22.951798] (-) TimerEvent: {}
+[23.052648] (-) TimerEvent: {}
+[23.153500] (-) TimerEvent: {}
+[23.254317] (-) TimerEvent: {}
+[23.355163] (-) TimerEvent: {}
+[23.456048] (-) TimerEvent: {}
+[23.556969] (-) TimerEvent: {}
+[23.657879] (-) TimerEvent: {}
+[23.758768] (-) TimerEvent: {}
+[23.859701] (-) TimerEvent: {}
+[23.960806] (-) TimerEvent: {}
+[24.062101] (-) TimerEvent: {}
+[24.163003] (-) TimerEvent: {}
+[24.266285] (-) TimerEvent: {}
+[24.367209] (-) TimerEvent: {}
+[24.468038] (-) TimerEvent: {}
+[24.568874] (-) TimerEvent: {}
+[24.669721] (-) TimerEvent: {}
+[24.770583] (-) TimerEvent: {}
+[24.871500] (-) TimerEvent: {}
+[24.972377] (-) TimerEvent: {}
+[25.073312] (-) TimerEvent: {}
+[25.174239] (-) TimerEvent: {}
+[25.275094] (-) TimerEvent: {}
+[25.375991] (-) TimerEvent: {}
+[25.476886] (-) TimerEvent: {}
+[25.577795] (-) TimerEvent: {}
+[25.678768] (-) TimerEvent: {}
+[25.779908] (-) TimerEvent: {}
+[25.881766] (-) TimerEvent: {}
+[25.983510] (-) TimerEvent: {}
+[26.084492] (-) TimerEvent: {}
+[26.185920] (-) TimerEvent: {}
+[26.288811] (-) TimerEvent: {}
+[26.390204] (-) TimerEvent: {}
+[26.492501] (-) TimerEvent: {}
+[26.593320] (-) TimerEvent: {}
+[26.694155] (-) TimerEvent: {}
+[26.794992] (-) TimerEvent: {}
+[26.895877] (-) TimerEvent: {}
+[26.996709] (-) TimerEvent: {}
+[27.097613] (-) TimerEvent: {}
+[27.198505] (-) TimerEvent: {}
+[27.299454] (-) TimerEvent: {}
+[27.400337] (-) TimerEvent: {}
+[27.501162] (-) TimerEvent: {}
+[27.602038] (-) TimerEvent: {}
+[27.702900] (-) TimerEvent: {}
+[27.803788] (-) TimerEvent: {}
+[27.904695] (-) TimerEvent: {}
+[28.005562] (-) TimerEvent: {}
+[28.106618] (-) TimerEvent: {}
+[28.207488] (-) TimerEvent: {}
+[28.308358] (-) TimerEvent: {}
+[28.409263] (-) TimerEvent: {}
+[28.510115] (-) TimerEvent: {}
+[28.610970] (-) TimerEvent: {}
+[28.711932] (-) TimerEvent: {}
+[28.812865] (-) TimerEvent: {}
+[28.913712] (-) TimerEvent: {}
+[29.014527] (-) TimerEvent: {}
+[29.115403] (-) TimerEvent: {}
+[29.216312] (-) TimerEvent: {}
+[29.317476] (-) TimerEvent: {}
+[29.418306] (-) TimerEvent: {}
+[29.519174] (-) TimerEvent: {}
+[29.620071] (-) TimerEvent: {}
+[29.720895] (-) TimerEvent: {}
+[29.821735] (-) TimerEvent: {}
+[29.922577] (-) TimerEvent: {}
+[30.023533] (-) TimerEvent: {}
+[30.124421] (-) TimerEvent: {}
+[30.225633] (-) TimerEvent: {}
+[30.328153] (-) TimerEvent: {}
+[30.430672] (-) TimerEvent: {}
+[30.533589] (-) TimerEvent: {}
+[30.634430] (-) TimerEvent: {}
+[30.735298] (-) TimerEvent: {}
+[30.836208] (-) TimerEvent: {}
+[30.937106] (-) TimerEvent: {}
+[31.037958] (-) TimerEvent: {}
+[31.138934] (-) TimerEvent: {}
+[31.239901] (-) TimerEvent: {}
+[31.340817] (-) TimerEvent: {}
+[31.441666] (-) TimerEvent: {}
+[31.542511] (-) TimerEvent: {}
+[31.643455] (-) TimerEvent: {}
+[31.744348] (-) TimerEvent: {}
+[31.845204] (-) TimerEvent: {}
+[31.946046] (-) TimerEvent: {}
+[32.046995] (-) TimerEvent: {}
+[32.147977] (-) TimerEvent: {}
+[32.248842] (-) TimerEvent: {}
+[32.349682] (-) TimerEvent: {}
+[32.450573] (-) TimerEvent: {}
+[32.551479] (-) TimerEvent: {}
+[32.652758] (-) TimerEvent: {}
+[32.753654] (-) TimerEvent: {}
+[32.854669] (-) TimerEvent: {}
+[32.955596] (-) TimerEvent: {}
+[33.056489] (-) TimerEvent: {}
+[33.157323] (-) TimerEvent: {}
+[33.258235] (-) TimerEvent: {}
+[33.359080] (-) TimerEvent: {}
+[33.459982] (-) TimerEvent: {}
+[33.560853] (-) TimerEvent: {}
+[33.661689] (-) TimerEvent: {}
+[33.762590] (-) TimerEvent: {}
+[33.863550] (-) TimerEvent: {}
+[33.964427] (-) TimerEvent: {}
+[34.065284] (-) TimerEvent: {}
+[34.166195] (-) TimerEvent: {}
+[34.267250] (-) TimerEvent: {}
+[34.368158] (-) TimerEvent: {}
+[34.468987] (-) TimerEvent: {}
+[34.569877] (-) TimerEvent: {}
+[34.670706] (-) TimerEvent: {}
+[34.771567] (-) TimerEvent: {}
+[34.872543] (-) TimerEvent: {}
+[34.973552] (-) TimerEvent: {}
+[35.074371] (-) TimerEvent: {}
+[35.175291] (-) TimerEvent: {}
+[35.276190] (-) TimerEvent: {}
+[35.377118] (-) TimerEvent: {}
+[35.478023] (-) TimerEvent: {}
+[35.578940] (-) TimerEvent: {}
+[35.680205] (-) TimerEvent: {}
+[35.781146] (-) TimerEvent: {}
+[35.882000] (-) TimerEvent: {}
+[35.983042] (-) TimerEvent: {}
+[36.083962] (-) TimerEvent: {}
+[36.184870] (-) TimerEvent: {}
+[36.285828] (-) TimerEvent: {}
+[36.386756] (-) TimerEvent: {}
+[36.487598] (-) TimerEvent: {}
+[36.588574] (-) TimerEvent: {}
+[36.689419] (-) TimerEvent: {}
+[36.790377] (-) TimerEvent: {}
+[36.891232] (-) TimerEvent: {}
+[36.992141] (-) TimerEvent: {}
+[37.092971] (-) TimerEvent: {}
+[37.193809] (-) TimerEvent: {}
+[37.294720] (-) TimerEvent: {}
+[37.397097] (-) TimerEvent: {}
+[37.499552] (-) TimerEvent: {}
+[37.601407] (-) TimerEvent: {}
+[37.703368] (-) TimerEvent: {}
+[37.804674] (-) TimerEvent: {}
+[37.905958] (-) TimerEvent: {}
+[38.007272] (-) TimerEvent: {}
+[38.108173] (-) TimerEvent: {}
+[38.209079] (-) TimerEvent: {}
+[38.310169] (-) TimerEvent: {}
+[38.411580] (-) TimerEvent: {}
+[38.512469] (-) TimerEvent: {}
+[38.613302] (-) TimerEvent: {}
+[38.714218] (-) TimerEvent: {}
+[38.815023] (-) TimerEvent: {}
+[38.915900] (-) TimerEvent: {}
+[39.016933] (-) TimerEvent: {}
+[39.117725] (-) TimerEvent: {}
+[39.218607] (-) TimerEvent: {}
+[39.319626] (-) TimerEvent: {}
+[39.420963] (-) TimerEvent: {}
+[39.510005] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable static_turtle_tf2_broadcaster\x1b[0m\n'}
+[39.521101] (-) TimerEvent: {}
+[39.622042] (-) TimerEvent: {}
+[39.722852] (-) TimerEvent: {}
+[39.824553] (-) TimerEvent: {}
+[39.925470] (-) TimerEvent: {}
+[40.026403] (-) TimerEvent: {}
+[40.127207] (-) TimerEvent: {}
+[40.228115] (-) TimerEvent: {}
+[40.329337] (-) TimerEvent: {}
+[40.430336] (-) TimerEvent: {}
+[40.531539] (-) TimerEvent: {}
+[40.632646] (-) TimerEvent: {}
+[40.733686] (-) TimerEvent: {}
+[40.834704] (-) TimerEvent: {}
+[40.935660] (-) TimerEvent: {}
+[41.036543] (-) TimerEvent: {}
+[41.137424] (-) TimerEvent: {}
+[41.238270] (-) TimerEvent: {}
+[41.339335] (-) TimerEvent: {}
+[41.440483] (-) TimerEvent: {}
+[41.465807] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] Built target static_turtle_tf2_broadcaster\n'}
+[41.535956] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[41.543657] (-) TimerEvent: {}
+[41.645644] (-) TimerEvent: {}
+[41.746423] (-) TimerEvent: {}
+[41.767604] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'install'}
+[41.828313] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hsun/ros2_ws/build/learning_tf2_cpp'], 'cwd': '/home/hsun/ros2_ws/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hsun'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib:/home/hsun/ros2_ws/install/turtlesim/lib:/home/hsun/ros2_ws/install/polygon_plugins/lib:/home/hsun/ros2_ws/install/more_interfaces/lib:/home/hsun/ros2_ws/install/custom_action_cpp/lib:/home/hsun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/hsun'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/hsun/ros2_ws/src/learning_tf2_cpp/src'), ('TERM_PROGRAM_VERSION', '1.80.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1580'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1721'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c3439f2e165fcf08fa49b8a964bf95ff'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5664'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hsun/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'hsun'), ('JOURNAL_STREAM', '8:25413'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hsun-desktop:@/tmp/.ICE-unix/1721,unix/hsun-desktop:/tmp/.ICE-unix/1721'), ('INVOCATION_ID', '6b62b072797a407abcdae4fbe9235c36'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VHJ871'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-969c4b3c87.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/launch_tutorial:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsun/ros2_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c3439f2e165fcf08fa49b8a964bf95ff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron')]), 'shell': False}
+[41.846623] (-) TimerEvent: {}
+[41.890090] (learning_tf2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.896776] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster\n'}
+[41.909890] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/hsun/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""\n'}
+[41.911693] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp\n'}
+[41.914030] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp\n'}
+[41.915062] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh\n'}
+[41.915831] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv\n'}
+[41.916834] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh\n'}
+[41.917668] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv\n'}
+[41.918223] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash\n'}
+[41.918662] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh\n'}
+[41.919053] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh\n'}
+[41.919758] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv\n'}
+[41.920484] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv\n'}
+[41.920897] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp\n'}
+[41.921255] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake\n'}
+[41.921625] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake\n'}
+[41.922078] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml\n'}
+[41.927482] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[41.946831] (-) TimerEvent: {}
+[42.047819] (-) TimerEvent: {}
+[42.148631] (-) TimerEvent: {}
+[42.249549] (-) TimerEvent: {}
+[42.360274] (-) TimerEvent: {}
+[42.380407] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 0}
+[42.385202] (-) EventReactorShutdown: {}

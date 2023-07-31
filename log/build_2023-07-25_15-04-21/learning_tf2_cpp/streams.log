@@ -1,0 +1,25 @@
+[0.086s] Invoking command in '/home/hsun/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+[0.321s] [35m[1mConsolidate compiler generated dependencies of target turtle_tf2_listener[0m
+[0.432s] [100%] Built target turtle_tf2_listener
+[0.480s] Invoked command in '/home/hsun/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+[0.692s] Invoking command in '/home/hsun/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/learning_tf2_cpp
+[0.728s] -- Install configuration: ""
+[0.729s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[0.731s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[0.732s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo_launch.py
+[0.733s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[0.733s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[0.734s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[0.735s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[0.735s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[0.736s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[0.736s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[0.737s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[0.737s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[0.738s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[0.738s] -- Installing: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[0.739s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[0.739s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[0.740s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[0.743s] -- Up-to-date: /home/hsun/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[0.750s] Invoked command in '/home/hsun/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/learning_tf2_cpp

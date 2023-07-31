@@ -6,5 +6,5 @@ CXX_DEFINES = -DROSIDL_TYPESUPPORT_CPP_BUILDING_DLL -DROS_PACKAGE_NAME=\"more_in
 
 CXX_INCLUDES = -I/home/hsun/ros2_ws/build/more_interfaces/rosidl_generator_c -I/home/hsun/ros2_ws/build/more_interfaces/rosidl_generator_cpp -isystem /opt/ros/iron/include/rosidl_runtime_c -isystem /opt/ros/iron/include/rcutils -isystem /opt/ros/iron/include/rosidl_typesupport_interface -isystem /opt/ros/iron/include/rosidl_runtime_cpp -isystem /opt/ros/iron/include/rosidl_typesupport_cpp -isystem /opt/ros/iron/include/rosidl_typesupport_c
 
-CXX_FLAGS = -fPIC -Wall
+CXX_FLAGS = -fPIC -Wall -Wextra -Wpedantic
 

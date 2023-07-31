@@ -1,0 +1,48 @@
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:488:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool tutorial_interfaces::srv::typesupport_fastrtps_cpp::cdr_serialize(const AddThreeInts_Request&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  488 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:32:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool tutorial_interfaces::srv::typesupport_fastrtps_cpp::cdr_serialize(const AddThreeInts_Request&, eprosima::fastcdr::Cdr&)[m[K’
+   32 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:491:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool tutorial_interfaces::srv::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, tutorial_interfaces::srv::AddThreeInts_Request&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  491 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:47:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool tutorial_interfaces::srv::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, tutorial_interfaces::srv::AddThreeInts_Request&)[m[K’
+   47 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:494:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t tutorial_interfaces::srv::typesupport_fastrtps_cpp::get_serialized_size(const AddThreeInts_Request&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  494 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:65:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t tutorial_interfaces::srv::typesupport_fastrtps_cpp::get_serialized_size(const AddThreeInts_Request&, size_t)[m[K’
+   65 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:498:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t tutorial_interfaces::srv::typesupport_fastrtps_cpp::max_serialized_size_AddThreeInts_Request(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  498 | [01;35m[Kmax_serialized_size_AddThreeInts_Request[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:100:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t tutorial_interfaces::srv::typesupport_fastrtps_cpp::max_serialized_size_AddThreeInts_Request(bool&, bool&, size_t)[m[K’
+  100 | [01;36m[Kmax_serialized_size_AddThreeInts_Request[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:512:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool tutorial_interfaces::srv::typesupport_fastrtps_cpp::cdr_serialize(const AddThreeInts_Response&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  512 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:270:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool tutorial_interfaces::srv::typesupport_fastrtps_cpp::cdr_serialize(const AddThreeInts_Response&, eprosima::fastcdr::Cdr&)[m[K’
+  270 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:515:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool tutorial_interfaces::srv::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, tutorial_interfaces::srv::AddThreeInts_Response&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  515 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:281:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool tutorial_interfaces::srv::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, tutorial_interfaces::srv::AddThreeInts_Response&)[m[K’
+  281 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:518:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t tutorial_interfaces::srv::typesupport_fastrtps_cpp::get_serialized_size(const AddThreeInts_Response&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  518 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:293:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t tutorial_interfaces::srv::typesupport_fastrtps_cpp::get_serialized_size(const AddThreeInts_Response&, size_t)[m[K’
+  293 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:522:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t tutorial_interfaces::srv::typesupport_fastrtps_cpp::max_serialized_size_AddThreeInts_Response(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  522 | [01;35m[Kmax_serialized_size_AddThreeInts_Response[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp:316:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t tutorial_interfaces::srv::typesupport_fastrtps_cpp::max_serialized_size_AddThreeInts_Response(bool&, bool&, size_t)[m[K’
+  316 | [01;36m[Kmax_serialized_size_AddThreeInts_Response[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

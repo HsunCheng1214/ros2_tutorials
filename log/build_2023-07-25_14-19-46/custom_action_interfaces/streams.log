@@ -1,0 +1,457 @@
+[0.202s] Invoking command in '/home/hsun/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/custom_action_interfaces -- -j4 -l4
+[0.523s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.774s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.246s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[2.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.701s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[5.305s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[6.957s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.252s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[9.504s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.505s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.507s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[9.731s] -- Added test 'lint_cmake' to check CMake code style
+[9.740s] -- Added test 'xmllint' to check XML markup files
+[9.786s] -- Configuring done
+[10.118s] -- Generating done
+[10.153s] -- Build files have been written to: /home/hsun/ros2_ws/build/custom_action_interfaces
+[10.518s] [  0%] Built target ament_cmake_python_copy_custom_action_interfaces
+[10.581s] [  2%] Built target custom_action_interfaces__rosidl_generator_type_description
+[10.809s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_generator_c[0m
+[10.883s] [  5%] Built target custom_action_interfaces__cpp
+[11.014s] [  8%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__description.c.o[0m
+[11.031s] [ 14%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__functions.c.o[0m
+[11.032s] [ 14%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[12.576s] [ 17%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_c.so[0m
+[13.193s] [ 20%] Built target custom_action_interfaces__rosidl_generator_c
+[13.393s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_fastrtps_c[0m
+[13.430s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_cpp[0m
+[13.451s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_introspection_c[0m
+[13.648s] [ 23%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[13.665s] [ 26%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[13.667s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[14.766s] [ 32%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.268s] [ 35%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c
+[15.356s] running egg_info
+[15.360s] writing custom_action_interfaces.egg-info/PKG-INFO
+[15.372s] writing dependency_links to custom_action_interfaces.egg-info/dependency_links.txt
+[15.375s] writing top-level names to custom_action_interfaces.egg-info/top_level.txt
+[15.415s] reading manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[15.421s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[15.503s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_c[0m
+[15.778s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[15.970s] [ 38%] Built target ament_cmake_python_build_custom_action_interfaces_egg
+[16.088s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[16.240s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[16.675s] [ 44%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_c.so[0m
+[17.281s] [ 47%] Built target custom_action_interfaces__rosidl_typesupport_c
+[17.458s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_introspection_cpp[0m
+[17.769s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_action_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[22.515s] [ 52%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[24.241s] [ 55%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c
+[28.996s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:671:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Goal&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[28.997s]   671 | bool [01;35m[Kcdr_serialize[m[K(
+[28.998s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[28.998s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:32:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Goal&, eprosima::fastcdr::Cdr&)[m[K’
+[29.000s]    32 | [01;36m[Kcdr_serialize[m[K(
+[29.001s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[29.002s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:674:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Goal&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.011s]   674 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.012s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.013s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:43:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Goal&)[m[K’
+[29.014s]    43 | [01;36m[Kcdr_deserialize[m[K(
+[29.015s]       | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.015s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:677:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Goal&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.016s]   677 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.017s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.017s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:55:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Goal&, size_t)[m[K’
+[29.018s]    55 | [01;36m[Kget_serialized_size[m[K(
+[29.045s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.046s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:681:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Goal(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.046s]   681 | [01;35m[Kmax_serialized_size_Fibonacci_Goal[m[K(
+[29.047s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.048s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:78:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Goal(bool&, bool&, size_t)[m[K’
+[29.049s]    78 | [01;36m[Kmax_serialized_size_Fibonacci_Goal[m[K(
+[29.049s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.065s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1214:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_SendGoal_Request&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.065s]  1214 | bool [01;35m[Kcdr_serialize[m[K(
+[29.066s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.067s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:701:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_SendGoal_Request&, eprosima::fastcdr::Cdr&)[m[K’
+[29.068s]   701 | [01;36m[Kcdr_serialize[m[K(
+[29.069s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[29.070s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1217:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_SendGoal_Request&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.103s]  1217 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.104s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.104s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:718:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_SendGoal_Request&)[m[K’
+[29.105s]   718 | [01;36m[Kcdr_deserialize[m[K(
+[29.106s]       | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.107s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1220:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_SendGoal_Request&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.108s]  1220 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.108s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.109s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:735:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_SendGoal_Request&, size_t)[m[K’
+[29.110s]   735 | [01;36m[Kget_serialized_size[m[K(
+[29.135s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.141s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1224:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_SendGoal_Request(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.160s]  1224 | [01;35m[Kmax_serialized_size_Fibonacci_SendGoal_Request[m[K(
+[29.161s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.162s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:762:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_SendGoal_Request(bool&, bool&, size_t)[m[K’
+[29.163s]   762 | [01;36m[Kmax_serialized_size_Fibonacci_SendGoal_Request[m[K(
+[29.164s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.164s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1238:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_SendGoal_Response&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.165s]  1238 | bool [01;35m[Kcdr_serialize[m[K(
+[29.166s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.195s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:964:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_SendGoal_Response&, eprosima::fastcdr::Cdr&)[m[K’
+[29.197s]   964 | [01;36m[Kcdr_serialize[m[K(
+[29.197s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[29.199s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1241:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_SendGoal_Response&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.199s]  1241 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.200s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.201s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:979:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_SendGoal_Response&)[m[K’
+[29.202s]   979 | [01;36m[Kcdr_deserialize[m[K(
+[29.223s]       | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.224s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1244:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_SendGoal_Response&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.224s]  1244 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.224s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.225s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:999:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_SendGoal_Response&, size_t)[m[K’
+[29.225s]   999 | [01;36m[Kget_serialized_size[m[K(
+[29.226s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.226s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1248:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_SendGoal_Response(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.226s]  1248 | [01;35m[Kmax_serialized_size_Fibonacci_SendGoal_Response[m[K(
+[29.227s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.228s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1027:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_SendGoal_Response(bool&, bool&, size_t)[m[K’
+[29.228s]  1027 | [01;36m[Kmax_serialized_size_Fibonacci_SendGoal_Response[m[K(
+[29.229s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.230s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1670:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const UUID&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.250s]  1670 | bool [01;35m[Kcdr_serialize[m[K(
+[29.252s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.279s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:647:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const UUID&, eprosima::fastcdr::Cdr&)[m[K’
+[29.280s]   647 | bool [01;36m[Kcdr_serialize[m[K(
+[29.280s]       |      [01;36m[K^~~~~~~~~~~~~[m[K
+[29.281s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1673:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, unique_identifier_msgs::msg::UUID&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.282s]  1673 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.283s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.284s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:650:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, unique_identifier_msgs::msg::UUID&)[m[K’
+[29.285s]   650 | bool [01;36m[Kcdr_deserialize[m[K(
+[29.286s]       |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.307s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1676:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const UUID&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.309s]  1676 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.309s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.310s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:653:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const UUID&, size_t)[m[K’
+[29.312s]   653 | size_t [01;36m[Kget_serialized_size[m[K(
+[29.312s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.313s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1680:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.314s]  1680 | [01;35m[Kmax_serialized_size_UUID[m[K(
+[29.331s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.332s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:657:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(bool&, bool&, size_t)[m[K’
+[29.333s]   657 | [01;36m[Kmax_serialized_size_UUID[m[K(
+[29.334s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.343s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1904:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Result&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.355s]  1904 | bool [01;35m[Kcdr_serialize[m[K(
+[29.356s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.357s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:231:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Result&, eprosima::fastcdr::Cdr&)[m[K’
+[29.358s]   231 | [01;36m[Kcdr_serialize[m[K(
+[29.359s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[29.360s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1907:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Result&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.361s]  1907 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.364s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.368s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:244:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Result&)[m[K’
+[29.369s]   244 | [01;36m[Kcdr_deserialize[m[K(
+[29.372s]       | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.373s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1910:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Result&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.374s]  1910 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.375s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.376s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:258:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Result&, size_t)[m[K’
+[29.378s]   258 | [01;36m[Kget_serialized_size[m[K(
+[29.379s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.380s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1914:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Result(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.381s]  1914 | [01;35m[Kmax_serialized_size_Fibonacci_Result[m[K(
+[29.382s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.384s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:285:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Result(bool&, bool&, size_t)[m[K’
+[29.385s]   285 | [01;36m[Kmax_serialized_size_Fibonacci_Result[m[K(
+[29.386s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.387s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2156:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool service_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const ServiceEventInfo&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.388s]  2156 | bool [01;35m[Kcdr_serialize[m[K(
+[29.388s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.389s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1190:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool service_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const ServiceEventInfo&, eprosima::fastcdr::Cdr&)[m[K’
+[29.390s]  1190 | bool [01;36m[Kcdr_serialize[m[K(
+[29.391s]       |      [01;36m[K^~~~~~~~~~~~~[m[K
+[29.392s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2159:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool service_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, service_msgs::msg::ServiceEventInfo&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.393s]  2159 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.394s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.395s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1193:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool service_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, service_msgs::msg::ServiceEventInfo&)[m[K’
+[29.396s]  1193 | bool [01;36m[Kcdr_deserialize[m[K(
+[29.397s]       |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.399s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2162:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t service_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const ServiceEventInfo&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.400s]  2162 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.401s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.402s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1196:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t service_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const ServiceEventInfo&, size_t)[m[K’
+[29.403s]  1196 | size_t [01;36m[Kget_serialized_size[m[K(
+[29.405s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.407s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2166:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t service_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_ServiceEventInfo(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.410s]  2166 | [01;35m[Kmax_serialized_size_ServiceEventInfo[m[K(
+[29.412s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.413s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1200:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t service_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_ServiceEventInfo(bool&, bool&, size_t)[m[K’
+[29.414s]  1200 | [01;36m[Kmax_serialized_size_ServiceEventInfo[m[K(
+[29.415s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.416s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2180:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_GetResult_Request&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.417s]  2180 | bool [01;35m[Kcdr_serialize[m[K(
+[29.417s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.431s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1700:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_GetResult_Request&, eprosima::fastcdr::Cdr&)[m[K’
+[29.432s]  1700 | [01;36m[Kcdr_serialize[m[K(
+[29.434s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[29.435s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2183:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_GetResult_Request&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.436s]  2183 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.436s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.437s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1713:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_GetResult_Request&)[m[K’
+[29.438s]  1713 | [01;36m[Kcdr_deserialize[m[K(
+[29.439s]       | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.440s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2186:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_GetResult_Request&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.441s]  2186 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.442s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.457s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1726:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_GetResult_Request&, size_t)[m[K’
+[29.459s]  1726 | [01;36m[Kget_serialized_size[m[K(
+[29.461s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.462s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2190:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_GetResult_Request(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.463s]  2190 | [01;35m[Kmax_serialized_size_Fibonacci_GetResult_Request[m[K(
+[29.464s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.465s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1748:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_GetResult_Request(bool&, bool&, size_t)[m[K’
+[29.466s]  1748 | [01;36m[Kmax_serialized_size_Fibonacci_GetResult_Request[m[K(
+[29.474s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.476s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2204:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_GetResult_Response&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.477s]  2204 | bool [01;35m[Kcdr_serialize[m[K(
+[29.478s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.491s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1934:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_GetResult_Response&, eprosima::fastcdr::Cdr&)[m[K’
+[29.492s]  1934 | [01;36m[Kcdr_serialize[m[K(
+[29.493s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[29.494s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2207:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_GetResult_Response&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.495s]  2207 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.496s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.496s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1949:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_GetResult_Response&)[m[K’
+[29.497s]  1949 | [01;36m[Kcdr_deserialize[m[K(
+[29.498s]       | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.515s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2210:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_GetResult_Response&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.517s]  2210 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.518s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.520s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1965:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_GetResult_Response&, size_t)[m[K’
+[29.521s]  1965 | [01;36m[Kget_serialized_size[m[K(
+[29.535s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.536s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2214:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_GetResult_Response(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.537s]  2214 | [01;35m[Kmax_serialized_size_Fibonacci_GetResult_Response[m[K(
+[29.538s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.539s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1993:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_GetResult_Response(bool&, bool&, size_t)[m[K’
+[29.540s]  1993 | [01;36m[Kmax_serialized_size_Fibonacci_GetResult_Response[m[K(
+[29.541s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.542s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2640:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const UUID&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.543s]  2640 | bool [01;35m[Kcdr_serialize[m[K(
+[29.543s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.544s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1670:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const UUID&, eprosima::fastcdr::Cdr&)[m[K’
+[29.545s]  1670 | bool [01;36m[Kcdr_serialize[m[K(
+[29.545s]       |      [01;36m[K^~~~~~~~~~~~~[m[K
+[29.546s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2643:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, unique_identifier_msgs::msg::UUID&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.559s]  2643 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.561s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.563s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1673:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, unique_identifier_msgs::msg::UUID&)[m[K’
+[29.564s]  1673 | bool [01;36m[Kcdr_deserialize[m[K(
+[29.564s]       |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.565s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2646:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const UUID&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.566s]  2646 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.591s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.592s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1676:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const UUID&, size_t)[m[K’
+[29.593s]  1676 | size_t [01;36m[Kget_serialized_size[m[K(
+[29.593s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.594s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2650:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.595s]  2650 | [01;35m[Kmax_serialized_size_UUID[m[K(
+[29.596s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.597s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1680:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(bool&, bool&, size_t)[m[K’
+[29.597s]  1680 | [01;36m[Kmax_serialized_size_UUID[m[K(
+[29.598s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.611s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2664:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Feedback&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.612s]  2664 | bool [01;35m[Kcdr_serialize[m[K(
+[29.612s]       |      [01;35m[K^~~~~~~~~~~~~[m[K
+[29.613s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:442:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Feedback&, eprosima::fastcdr::Cdr&)[m[K’
+[29.614s]   442 | [01;36m[Kcdr_serialize[m[K(
+[29.623s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[29.625s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2667:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Feedback&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.626s]  2667 | bool [01;35m[Kcdr_deserialize[m[K(
+[29.627s]       |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[29.628s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:455:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Feedback&)[m[K’
+[29.628s]   455 | [01;36m[Kcdr_deserialize[m[K(
+[29.629s]       | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.630s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2670:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Feedback&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.647s]  2670 | size_t [01;35m[Kget_serialized_size[m[K(
+[29.649s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.651s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:469:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Feedback&, size_t)[m[K’
+[29.652s]   469 | [01;36m[Kget_serialized_size[m[K(
+[29.653s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[29.654s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2674:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Feedback(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+[29.672s]  2674 | [01;35m[Kmax_serialized_size_Fibonacci_Feedback[m[K(
+[29.673s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.683s] [01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:496:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Feedback(bool&, bool&, size_t)[m[K’
+[29.683s]   496 | [01;36m[Kmax_serialized_size_Fibonacci_Feedback[m[K(
+[29.684s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.685s] [ 58%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_cpp.so[0m
+[30.737s] [ 61%] Built target custom_action_interfaces__rosidl_typesupport_cpp
+[34.513s] [ 64%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[35.626s] [ 67%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[35.853s] [ 70%] Built target custom_action_interfaces__rosidl_typesupport_introspection_cpp
+[36.872s] [ 73%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp
+[37.077s] [ 73%] Built target custom_action_interfaces
+[37.248s] [ 76%] Built target custom_action_interfaces__py
+[37.383s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_generator_py[0m
+[37.591s] [ 79%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c.o[0m
+[39.965s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/custom_action_interfaces/libcustom_action_interfaces__rosidl_generator_py.so[0m
+[40.488s] [ 82%] Built target custom_action_interfaces__rosidl_generator_py
+[40.615s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[40.788s] [ 85%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[42.047s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[42.605s] [ 88%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[42.781s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_c__pyext[0m
+[42.909s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[44.275s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[44.666s] [ 94%] Built target custom_action_interfaces__rosidl_typesupport_c__pyext
+[44.760s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[44.860s] [ 97%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[45.746s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[46.095s] [100%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c__pyext
+[46.160s] Invoked command in '/home/hsun/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --build /home/hsun/ros2_ws/build/custom_action_interfaces -- -j4 -l4
+[46.910s] Invoking command in '/home/hsun/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/custom_action_interfaces
+[46.960s] -- Install configuration: ""
+[46.961s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_action_interfaces
+[46.963s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.json
+[46.966s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[46.967s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[46.968s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_c__visibility_control.h
+[46.970s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[46.971s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[46.972s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.h
+[46.977s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.c
+[46.980s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__description.c
+[46.982s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.h
+[46.984s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.h
+[46.986s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[46.988s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.h
+[46.992s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.sh
+[46.994s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.dsv
+[46.997s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so
+[47.002s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so" to ""
+[47.003s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[47.004s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[47.005s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[47.008s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[47.008s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[47.009s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[47.013s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so
+[47.017s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[47.018s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[47.019s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[47.020s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[47.021s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[47.022s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[47.023s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[47.025s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[47.027s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so
+[47.031s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[47.033s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so
+[47.036s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so" to ""
+[47.037s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[47.038s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[47.039s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[47.040s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__traits.hpp
+[47.042s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__builder.hpp
+[47.044s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.hpp
+[47.046s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.hpp
+[47.048s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[47.049s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[47.050s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[47.052s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[47.053s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[47.053s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/dds_fastrtps
+[47.055s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[47.058s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[47.065s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[47.066s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[47.067s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[47.068s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[47.069s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[47.071s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.cpp
+[47.077s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so
+[47.083s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[47.085s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so
+[47.091s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so" to ""
+[47.092s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.sh
+[47.094s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.dsv
+[47.096s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info
+[47.097s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[47.099s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[47.101s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[47.103s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[47.105s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces
+[47.106s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c
+[47.109s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[47.112s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/__init__.py
+[47.114s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[47.116s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[47.119s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[47.122s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[47.125s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action
+[47.126s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action/__init__.py
+[47.128s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action/_fibonacci.py
+[47.131s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action/_fibonacci_s.c
+[47.133s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/libcustom_action_interfaces__rosidl_generator_py.so
+[47.458s] Listing '/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces'...
+[47.459s] Compiling '/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/__init__.py'...
+[47.461s] Listing '/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action'...
+[47.463s] Compiling '/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action/__init__.py'...
+[47.464s] Compiling '/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action/_fibonacci.py'...
+[47.503s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[47.508s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.510s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[47.514s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.518s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[47.524s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[47.526s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so
+[47.530s] -- Set runtime path of "/home/hsun/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so" to ""
+[47.531s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.idl
+[47.533s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.action
+[47.534s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_action_interfaces
+[47.537s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_action_interfaces
+[47.541s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.sh
+[47.543s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.dsv
+[47.545s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.sh
+[47.547s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.dsv
+[47.549s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.bash
+[47.551s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.sh
+[47.553s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.zsh
+[47.556s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.dsv
+[47.558s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.dsv
+[47.560s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/packages/custom_action_interfaces
+[47.563s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport.cmake
+[47.565s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport-noconfig.cmake
+[47.569s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[47.572s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[47.575s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[47.578s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[47.581s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport.cmake
+[47.585s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[47.589s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cppExport.cmake
+[47.593s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[47.596s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[47.599s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[47.603s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[47.610s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport.cmake
+[47.612s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[47.615s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport.cmake
+[47.618s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[47.620s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake-extras.cmake
+[47.622s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.624s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.627s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[47.629s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[47.632s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[47.633s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[47.635s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig.cmake
+[47.636s] -- Installing: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig-version.cmake
+[47.638s] -- Up-to-date: /home/hsun/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.xml
+[47.657s] Invoked command in '/home/hsun/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/launch_tutorial:/opt/ros/iron /usr/bin/cmake --install /home/hsun/ros2_ws/build/custom_action_interfaces

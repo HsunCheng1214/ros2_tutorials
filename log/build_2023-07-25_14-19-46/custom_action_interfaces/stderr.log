@@ -1,0 +1,240 @@
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:671:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Goal&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  671 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:32:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Goal&, eprosima::fastcdr::Cdr&)[m[K’
+   32 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:674:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Goal&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  674 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:43:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Goal&)[m[K’
+   43 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:677:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Goal&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  677 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:55:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Goal&, size_t)[m[K’
+   55 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:681:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Goal(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+  681 | [01;35m[Kmax_serialized_size_Fibonacci_Goal[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:78:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Goal(bool&, bool&, size_t)[m[K’
+   78 | [01;36m[Kmax_serialized_size_Fibonacci_Goal[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1214:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_SendGoal_Request&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1214 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:701:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_SendGoal_Request&, eprosima::fastcdr::Cdr&)[m[K’
+  701 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1217:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_SendGoal_Request&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1217 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:718:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_SendGoal_Request&)[m[K’
+  718 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1220:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_SendGoal_Request&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1220 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:735:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_SendGoal_Request&, size_t)[m[K’
+  735 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1224:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_SendGoal_Request(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1224 | [01;35m[Kmax_serialized_size_Fibonacci_SendGoal_Request[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:762:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_SendGoal_Request(bool&, bool&, size_t)[m[K’
+  762 | [01;36m[Kmax_serialized_size_Fibonacci_SendGoal_Request[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1238:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_SendGoal_Response&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1238 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:964:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_SendGoal_Response&, eprosima::fastcdr::Cdr&)[m[K’
+  964 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1241:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_SendGoal_Response&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1241 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:979:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_SendGoal_Response&)[m[K’
+  979 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1244:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_SendGoal_Response&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1244 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:999:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_SendGoal_Response&, size_t)[m[K’
+  999 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1248:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_SendGoal_Response(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1248 | [01;35m[Kmax_serialized_size_Fibonacci_SendGoal_Response[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1027:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_SendGoal_Response(bool&, bool&, size_t)[m[K’
+ 1027 | [01;36m[Kmax_serialized_size_Fibonacci_SendGoal_Response[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1670:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const UUID&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1670 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:647:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const UUID&, eprosima::fastcdr::Cdr&)[m[K’
+  647 | bool [01;36m[Kcdr_serialize[m[K(
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1673:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, unique_identifier_msgs::msg::UUID&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1673 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:650:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, unique_identifier_msgs::msg::UUID&)[m[K’
+  650 | bool [01;36m[Kcdr_deserialize[m[K(
+      |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1676:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const UUID&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1676 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:653:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const UUID&, size_t)[m[K’
+  653 | size_t [01;36m[Kget_serialized_size[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1680:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1680 | [01;35m[Kmax_serialized_size_UUID[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:657:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(bool&, bool&, size_t)[m[K’
+  657 | [01;36m[Kmax_serialized_size_UUID[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1904:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Result&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1904 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:231:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Result&, eprosima::fastcdr::Cdr&)[m[K’
+  231 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1907:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Result&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1907 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:244:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Result&)[m[K’
+  244 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1910:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Result&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1910 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:258:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Result&, size_t)[m[K’
+  258 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1914:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Result(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 1914 | [01;35m[Kmax_serialized_size_Fibonacci_Result[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:285:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Result(bool&, bool&, size_t)[m[K’
+  285 | [01;36m[Kmax_serialized_size_Fibonacci_Result[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2156:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool service_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const ServiceEventInfo&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2156 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1190:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool service_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const ServiceEventInfo&, eprosima::fastcdr::Cdr&)[m[K’
+ 1190 | bool [01;36m[Kcdr_serialize[m[K(
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2159:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool service_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, service_msgs::msg::ServiceEventInfo&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2159 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1193:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool service_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, service_msgs::msg::ServiceEventInfo&)[m[K’
+ 1193 | bool [01;36m[Kcdr_deserialize[m[K(
+      |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2162:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t service_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const ServiceEventInfo&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2162 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1196:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t service_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const ServiceEventInfo&, size_t)[m[K’
+ 1196 | size_t [01;36m[Kget_serialized_size[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2166:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t service_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_ServiceEventInfo(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2166 | [01;35m[Kmax_serialized_size_ServiceEventInfo[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1200:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t service_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_ServiceEventInfo(bool&, bool&, size_t)[m[K’
+ 1200 | [01;36m[Kmax_serialized_size_ServiceEventInfo[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2180:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_GetResult_Request&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2180 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1700:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_GetResult_Request&, eprosima::fastcdr::Cdr&)[m[K’
+ 1700 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2183:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_GetResult_Request&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2183 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1713:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_GetResult_Request&)[m[K’
+ 1713 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2186:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_GetResult_Request&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2186 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1726:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_GetResult_Request&, size_t)[m[K’
+ 1726 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2190:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_GetResult_Request(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2190 | [01;35m[Kmax_serialized_size_Fibonacci_GetResult_Request[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1748:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_GetResult_Request(bool&, bool&, size_t)[m[K’
+ 1748 | [01;36m[Kmax_serialized_size_Fibonacci_GetResult_Request[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2204:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_GetResult_Response&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2204 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1934:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_GetResult_Response&, eprosima::fastcdr::Cdr&)[m[K’
+ 1934 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2207:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_GetResult_Response&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2207 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1949:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_GetResult_Response&)[m[K’
+ 1949 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2210:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_GetResult_Response&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2210 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1965:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_GetResult_Response&, size_t)[m[K’
+ 1965 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2214:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_GetResult_Response(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2214 | [01;35m[Kmax_serialized_size_Fibonacci_GetResult_Response[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1993:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_GetResult_Response(bool&, bool&, size_t)[m[K’
+ 1993 | [01;36m[Kmax_serialized_size_Fibonacci_GetResult_Response[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2640:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const UUID&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2640 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1670:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(const UUID&, eprosima::fastcdr::Cdr&)[m[K’
+ 1670 | bool [01;36m[Kcdr_serialize[m[K(
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2643:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, unique_identifier_msgs::msg::UUID&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2643 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1673:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool unique_identifier_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, unique_identifier_msgs::msg::UUID&)[m[K’
+ 1673 | bool [01;36m[Kcdr_deserialize[m[K(
+      |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2646:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const UUID&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2646 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1676:8:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(const UUID&, size_t)[m[K’
+ 1676 | size_t [01;36m[Kget_serialized_size[m[K(
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2650:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2650 | [01;35m[Kmax_serialized_size_UUID[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:1680:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(bool&, bool&, size_t)[m[K’
+ 1680 | [01;36m[Kmax_serialized_size_UUID[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2664:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Feedback&, eprosima::fastcdr::Cdr&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2664 | bool [01;35m[Kcdr_serialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:442:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_serialize(const Fibonacci_Feedback&, eprosima::fastcdr::Cdr&)[m[K’
+  442 | [01;36m[Kcdr_serialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2667:6:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Feedback&)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2667 | bool [01;35m[Kcdr_deserialize[m[K(
+      |      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:455:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kbool custom_action_interfaces::action::typesupport_fastrtps_cpp::cdr_deserialize(eprosima::fastcdr::Cdr&, custom_action_interfaces::action::Fibonacci_Feedback&)[m[K’
+  455 | [01;36m[Kcdr_deserialize[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2670:8:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Feedback&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2670 | size_t [01;35m[Kget_serialized_size[m[K(
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:469:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::get_serialized_size(const Fibonacci_Feedback&, size_t)[m[K’
+  469 | [01;36m[Kget_serialized_size[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:2674:1:[m[K [01;35m[Kwarning: [m[Kredundant redeclaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Feedback(bool&, bool&, size_t)[m[K’ in same scope [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls-Wredundant-decls]8;;[m[K]
+ 2674 | [01;35m[Kmax_serialized_size_Fibonacci_Feedback[m[K(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hsun/ros2_ws/build/custom_action_interfaces/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp:496:1:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Ksize_t custom_action_interfaces::action::typesupport_fastrtps_cpp::max_serialized_size_Fibonacci_Feedback(bool&, bool&, size_t)[m[K’
+  496 | [01;36m[Kmax_serialized_size_Fibonacci_Feedback[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
