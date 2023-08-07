@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.004741] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.005583] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.006172] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.006463] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.006753] (-) JobUnselected: {'identifier': 'custom_action_cpp'}
+[0.006950] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.007091] (-) JobUnselected: {'identifier': 'custom_action_python'}
+[0.008381] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.009063] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.009527] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.014044] (-) JobUnselected: {'identifier': 'my_package'}
+[0.014589] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.014907] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.015094] (-) JobUnselected: {'identifier': 'py_launch_example'}
+[0.015418] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.015672] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.015865] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.016008] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.016163] (learning_tf2_py) JobQueued: {'identifier': 'learning_tf2_py', 'dependencies': OrderedDict()}
+[0.016429] (learning_tf2_py) JobStarted: {'identifier': 'learning_tf2_py'}
+[0.097019] (-) TimerEvent: {}
+[0.197951] (-) TimerEvent: {}
+[0.299024] (-) TimerEvent: {}
+[0.399890] (-) TimerEvent: {}
+[0.501615] (-) TimerEvent: {}
+[0.604185] (-) TimerEvent: {}
+[0.706040] (-) TimerEvent: {}
+[0.809255] (-) TimerEvent: {}
+[0.911479] (-) TimerEvent: {}
+[1.013462] (-) TimerEvent: {}
+[1.115381] (-) TimerEvent: {}
+[1.216570] (-) TimerEvent: {}
+[1.317660] (-) TimerEvent: {}
+[1.418900] (-) TimerEvent: {}
+[1.520214] (-) TimerEvent: {}
+[1.621531] (-) TimerEvent: {}
+[1.722981] (-) TimerEvent: {}
+[1.825600] (-) TimerEvent: {}
+[1.928276] (-) TimerEvent: {}
+[2.030585] (-) TimerEvent: {}
+[2.135834] (-) TimerEvent: {}
+[2.238685] (-) TimerEvent: {}
+[2.340217] (-) TimerEvent: {}
+[2.442336] (-) TimerEvent: {}
+[2.544036] (-) TimerEvent: {}
+[2.646270] (-) TimerEvent: {}
+[2.747670] (-) TimerEvent: {}
+[2.849116] (-) TimerEvent: {}
+[2.950740] (-) TimerEvent: {}
+[3.052732] (-) TimerEvent: {}
+[3.156781] (-) TimerEvent: {}
+[3.257957] (-) TimerEvent: {}
+[3.359881] (-) TimerEvent: {}
+[3.462257] (-) TimerEvent: {}
+[3.564069] (-) TimerEvent: {}
+[3.669838] (-) TimerEvent: {}
+[3.771413] (-) TimerEvent: {}
+[3.872769] (-) TimerEvent: {}
+[3.975045] (-) TimerEvent: {}
+[4.078113] (-) TimerEvent: {}
+[4.179221] (-) TimerEvent: {}
+[4.280497] (-) TimerEvent: {}
+[4.381607] (-) TimerEvent: {}
+[4.482669] (-) TimerEvent: {}
+[4.583915] (-) TimerEvent: {}
+[4.686255] (-) TimerEvent: {}
+[4.788127] (-) TimerEvent: {}
+[4.889406] (-) TimerEvent: {}
+[4.991399] (-) TimerEvent: {}
+[5.092643] (-) TimerEvent: {}
+[5.194099] (-) TimerEvent: {}
+[5.295974] (-) TimerEvent: {}
+[5.397765] (-) TimerEvent: {}
+[5.498933] (-) TimerEvent: {}
+[5.600515] (-) TimerEvent: {}
+[5.701673] (-) TimerEvent: {}
+[5.803133] (-) TimerEvent: {}
+[5.905875] (-) TimerEvent: {}
+[6.008613] (-) TimerEvent: {}
+[6.111603] (-) TimerEvent: {}
+[6.213170] (-) TimerEvent: {}
+[6.314582] (-) TimerEvent: {}
+[6.420221] (-) TimerEvent: {}
+[6.522800] (-) TimerEvent: {}
+[6.625954] (-) TimerEvent: {}
+[6.731534] (-) TimerEvent: {}
+[6.834855] (-) TimerEvent: {}
+[6.939668] (-) TimerEvent: {}
+[7.026411] (learning_tf2_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/learning_tf2_py', 'build', '--build-base', '/home/hsun/ros2_ws/build/learning_tf2_py/build', 'install', '--record', '/home/hsun/ros2_ws/build/learning_tf2_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/hsun/ros2_ws/src/learning_tf2_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hsun', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hsun/ros2_ws/install/tutorial_interfaces/lib:/home/hsun/ros2_ws/install/turtlesim/lib:/home/hsun/ros2_ws/install/polygon_plugins/lib:/home/hsun/ros2_ws/install/more_interfaces/lib:/home/hsun/ros2_ws/install/custom_action_cpp/lib:/home/hsun/ros2_ws/install/custom_action_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/hsun', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/hsun/ros2_ws/src/learning_tf2_py/learning_tf2_py', 'TERM_PROGRAM_VERSION': '1.80.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1589', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1742', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8e831d71cba772c3cac6e5e164c9c506', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4021', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hsun/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'hsun', 'JOURNAL_STREAM': '8:24487', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hsun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hsun-desktop:@/tmp/.ICE-unix/1742,unix/hsun-desktop:/tmp/.ICE-unix/1742', 'INVOCATION_ID': '275c954161f64632949421a663630147', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'lzh_TW', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JL6781', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-969c4b3c87.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_py:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/python_parameters:/home/hsun/ros2_ws/install/py_srvcli:/home/hsun/ros2_ws/install/py_pubsub:/home/hsun/ros2_ws/install/py_launch_example:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/launch_tutorial:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler:/opt/ros/iron', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hsun/ros2_ws/build/learning_tf2_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8e831d71cba772c3cac6e5e164c9c506', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hsun/ros2_ws/build/learning_tf2_py/prefix_override:/home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/python_parameters/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/hsun/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/hsun/ros2_ws/install/cpp_srvcli:/home/hsun/ros2_ws/install/cpp_pubsub:/home/hsun/ros2_ws/install/tutorial_interfaces:/home/hsun/ros2_ws/install/learning_tf2_cpp:/home/hsun/ros2_ws/install/turtlesim:/home/hsun/ros2_ws/install/polygon_plugins:/home/hsun/ros2_ws/install/polygon_base:/home/hsun/ros2_ws/install/my_package:/home/hsun/ros2_ws/install/more_interfaces:/home/hsun/ros2_ws/install/custom_action_cpp:/home/hsun/ros2_ws/install/custom_action_interfaces:/home/hsun/ros2_ws/install/cpp_parameters:/home/hsun/ros2_ws/install/cpp_parameter_event_handler'}, 'shell': False}
+[7.048580] (-) TimerEvent: {}
+[7.156597] (-) TimerEvent: {}
+[7.261231] (-) TimerEvent: {}
+[7.363355] (-) TimerEvent: {}
+[7.465001] (-) TimerEvent: {}
+[7.566835] (-) TimerEvent: {}
+[7.669072] (-) TimerEvent: {}
+[7.770666] (-) TimerEvent: {}
+[7.873007] (-) TimerEvent: {}
+[7.975073] (-) TimerEvent: {}
+[8.076960] (-) TimerEvent: {}
+[8.178732] (-) TimerEvent: {}
+[8.280089] (-) TimerEvent: {}
+[8.381500] (-) TimerEvent: {}
+[8.482993] (-) TimerEvent: {}
+[8.585489] (-) TimerEvent: {}
+[8.686629] (-) TimerEvent: {}
+[8.787798] (-) TimerEvent: {}
+[8.888821] (-) TimerEvent: {}
+[8.989932] (-) TimerEvent: {}
+[9.091516] (-) TimerEvent: {}
+[9.193574] (-) TimerEvent: {}
+[9.295766] (-) TimerEvent: {}
+[9.397447] (-) TimerEvent: {}
+[9.498725] (-) TimerEvent: {}
+[9.601355] (-) TimerEvent: {}
+[9.704151] (-) TimerEvent: {}
+[9.806655] (-) TimerEvent: {}
+[9.909365] (-) TimerEvent: {}
+[9.986430] (learning_tf2_py) StdoutLine: {'line': b'running egg_info\n'}
+[9.993779] (learning_tf2_py) StdoutLine: {'line': b'writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO\n'}
+[9.996480] (learning_tf2_py) StdoutLine: {'line': b'writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt\n'}
+[10.002567] (learning_tf2_py) StdoutLine: {'line': b'writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt\n'}
+[10.007029] (learning_tf2_py) StdoutLine: {'line': b'writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt\n'}
+[10.016073] (-) TimerEvent: {}
+[10.024506] (learning_tf2_py) StdoutLine: {'line': b'writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt\n'}
+[10.042227] (learning_tf2_py) StdoutLine: {'line': b"reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'\n"}
+[10.054370] (learning_tf2_py) StdoutLine: {'line': b"writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'\n"}
+[10.056909] (learning_tf2_py) StdoutLine: {'line': b'running build\n'}
+[10.058170] (learning_tf2_py) StdoutLine: {'line': b'running build_py\n'}
+[10.061590] (learning_tf2_py) StdoutLine: {'line': b'running install\n'}
+[10.071852] (learning_tf2_py) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.076026] (learning_tf2_py) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.078365] (learning_tf2_py) StdoutLine: {'line': b'running install_lib\n'}
+[10.090458] (learning_tf2_py) StdoutLine: {'line': b'running install_data\n'}
+[10.096417] (learning_tf2_py) StdoutLine: {'line': b'copying launch/turtle_tf2_fixed_frame_demo_launch.py -> /home/hsun/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch\n'}
+[10.098169] (learning_tf2_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.116482] (-) TimerEvent: {}
+[10.119111] (learning_tf2_py) StdoutLine: {'line': b"removing '/home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.123368] (learning_tf2_py) StdoutLine: {'line': b'Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info\n'}
+[10.144425] (learning_tf2_py) StdoutLine: {'line': b'running install_scripts\n'}
+[10.217154] (-) TimerEvent: {}
+[10.324857] (-) TimerEvent: {}
+[10.393523] (learning_tf2_py) StdoutLine: {'line': b'Installing fixed_frame_tf2_broadcaster script to /home/hsun/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py\n'}
+[10.395675] (learning_tf2_py) StdoutLine: {'line': b'Installing static_turtle_tf2_broadcaster script to /home/hsun/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py\n'}
+[10.398117] (learning_tf2_py) StdoutLine: {'line': b'Installing turtle_tf2_broadcaster script to /home/hsun/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py\n'}
+[10.402100] (learning_tf2_py) StdoutLine: {'line': b'Installing turtle_tf2_listener script to /home/hsun/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py\n'}
+[10.408749] (learning_tf2_py) StdoutLine: {'line': b"writing list of installed files to '/home/hsun/ros2_ws/build/learning_tf2_py/install.log'\n"}
+[10.425295] (-) TimerEvent: {}
+[10.526985] (-) TimerEvent: {}
+[10.629648] (-) TimerEvent: {}
+[10.669788] (learning_tf2_py) CommandEnded: {'returncode': 0}
+[10.730018] (-) TimerEvent: {}
+[10.831677] (-) TimerEvent: {}
+[10.844019] (learning_tf2_py) JobEnded: {'identifier': 'learning_tf2_py', 'rc': 0}
+[10.853722] (-) EventReactorShutdown: {}

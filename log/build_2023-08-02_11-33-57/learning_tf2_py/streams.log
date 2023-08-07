@@ -1,0 +1,26 @@
+[4.930s] Invoking command in '/home/hsun/ros2_ws/src/learning_tf2_py': PYTHONPATH=/home/hsun/ros2_ws/build/learning_tf2_py/prefix_override:/home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/hsun/ros2_ws/build/learning_tf2_py/build install --record /home/hsun/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed
+[6.918s] running egg_info
+[6.922s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[6.923s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[6.924s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[6.925s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[6.926s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[6.934s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[6.938s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[6.939s] running build
+[6.939s] running build_py
+[6.941s] running install
+[6.942s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.943s]   warnings.warn(
+[6.943s] running install_lib
+[6.952s] running install_data
+[6.957s] copying launch/turtle_tf2_demo_launch.py -> /home/hsun/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[6.958s] running install_egg_info
+[6.968s] removing '/home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[6.970s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[6.989s] running install_scripts
+[7.126s] Installing static_turtle_tf2_broadcaster script to /home/hsun/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[7.128s] Installing turtle_tf2_broadcaster script to /home/hsun/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[7.129s] Installing turtle_tf2_listener script to /home/hsun/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[7.131s] writing list of installed files to '/home/hsun/ros2_ws/build/learning_tf2_py/install.log'
+[7.345s] Invoked command in '/home/hsun/ros2_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/hsun/ros2_ws/build/learning_tf2_py/prefix_override:/home/hsun/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/hsun/ros2_ws/build/learning_tf2_py/build install --record /home/hsun/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed

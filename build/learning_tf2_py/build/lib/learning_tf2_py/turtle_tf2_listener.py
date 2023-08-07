@@ -25,6 +25,7 @@ from tf2_ros.transform_listener import TransformListener
 
 from turtlesim.srv import Spawn
 
+from tf2_ros import LookupException, ConnectivityException, ExtrapolationException
 
 class FrameListener(Node):
 
@@ -62,26 +63,28 @@ class FrameListener(Node):
             if self.turtle_spawned:
                 # Look up for the transformation between target_frame and turtle2 frames
                 # and send velocity commands for turtle2 to reach target_frame
+                when = self.get_clock().now() - rclpy.time.Duration(seconds=5.0)
                 try:
                     t = self.tf_buffer.lookup_transform(
                         to_frame_rel,
                         from_frame_rel,
-                        rclpy.time.Time())
+                        when,
+                        timeout=rclpy.duration.Duration(seconds=0.05))
                 except TransformException as ex:
-                    self.get_logger().info(
-                        f'Could not transform {to_frame_rel} to {from_frame_rel}: {ex}')
+                    self.get_logger().info('transform not ready')
+                    #raise
                     return
 
                 msg = Twist()
                 scale_rotation_rate = 1.0
                 msg.angular.z = scale_rotation_rate * math.atan2(
-                    t.transform.translation.y,
-                    t.transform.translation.x)
+                    trans.transform.translation.y,
+                    trans.transform.translation.x)
 
                 scale_forward_speed = 0.5
                 msg.linear.x = scale_forward_speed * math.sqrt(
-                    t.transform.translation.x ** 2 +
-                    t.transform.translation.y ** 2)
+                    trans.transform.translation.x ** 2 +
+                    trans.transform.translation.y ** 2)
 
                 self.publisher.publish(msg)
             else:
